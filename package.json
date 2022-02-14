@@ -1,0 +1,17 @@
+{
+  "name": "blogroll",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "cd web && vite",
+    "build": "cd web && vite build",
+    "preview": "cd web && vite preview --port 5050"
+  },
+  "dependencies": {
+    "rss-parser": "^3.12.0",
+    "vue": "^3.2.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.1.0",
+    "vite": "^2.7.13"
+  }
+}

@@ -1,0 +1,12 @@
+<opml version="2.0">
+  <head>
+    <title>NJU-LUG Blogroll</title>
+  </head>
+  <body>
+
+  <outline title="OrangeX4's Blog" xmlUrl="https://orangex4.cool/atom.xml" htmlUrl="https://orangex4.cool/" />
+  <outline title="Cmj's Blog" xmlUrl="https://blog.caomingjun.com/atom.xml" htmlUrl="https://blog.caomingjun.com/" />
+  <outline title="Mexii's Blog" xmlUrl="https://blog.mexii.one/atom.xml" htmlUrl="https://blog.mexii.one/" />
+
+  </body>
+</opml>
