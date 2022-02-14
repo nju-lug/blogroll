@@ -73,7 +73,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
   
   // 按时间顺序排序
   dataJson.sort((itemA, itemB) => itemA.pubDate < itemB.pubDate ? 1 : -1);
-  // 默认为保存前 100 项的数据
+  // 默认为保存前 30 项的数据
   fs.writeFileSync(dataJsonPath, JSON.stringify(dataJson.slice(0, Math.min(maxDataJsonItemsNumber, dataJson.length)), null, 2), { encoding: 'utf-8' });
 
 })();

@@ -1,29 +1,22 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import SummaryCard from './components/SummaryCard.vue'
+import opmlJson from './assets/opml.json'
+import dataJson from './assets/data.json'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+      </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <div  v-for="item in dataJson">
+      <SummaryCard :props="item"/>
+    </div>
   </main>
 </template>
 
 <style>
 @import './assets/base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
 </style>
