@@ -1,5 +1,6 @@
 // 文件读取包
-const fs = require('fs')
+const fs = require('fs');
+const { exit } = require('process');
 // 引入 RSS 解析第三方包
 const Parser = require('rss-parser');
 const parser = new Parser();
@@ -9,7 +10,7 @@ const opmlXmlContentTitle = 'NJU-LUG Blogroll';
 const readmeMdPath = './README.md';
 const opmlJsonPath = './web/src/assets/opml.json';
 const dataJsonPath = './web/src/assets/data.json';
-const maxDataJsonItemsNumber = 100;
+const maxDataJsonItemsNumber = 30;
 const opmlXmlPath = './web/public/opml.xml';
 const opmlXmlContentOp = '<opml version="2.0">\n  <head>\n    <title>' + opmlXmlContentTitle + '</title>\n  </head>\n  <body>\n\n';
 const opmlXmlContentEd = '\n  </body>\n</opml>';
@@ -41,26 +42,38 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
   const dataJson = [];
   
   for (const lineJson of opmlJson) {
-    const feed = await parser.parseURL(lineJson.xmlUrl);
-    
-    // 数组合并
-    dataJson.push.apply(dataJson, feed.items.filter((item) => item.title && item.content && item.pubDate).map((item) => {
-      const pubDate = new Date(item.pubDate);
-      return {
-        name: lineJson.title,
-        xmlUrl: lineJson.xmlUrl,
-        htmlUrl: lineJson.htmlUrl,
-        title: item.title,
-        content: item.content,
-        pubDate: pubDate,
-        pubDateStr: pubDate.toISOString().split('T')[0]
-      }
-    }));
+
+    try {
+      const feed = await parser.parseURL(lineJson.xmlUrl);
+      
+      // 数组合并
+      dataJson.push.apply(dataJson, feed.items.filter((item) => item.title && item.content && item.pubDate).map((item) => {
+        const pubDate = new Date(item.pubDate);
+        return {
+          name: lineJson.title,
+          xmlUrl: lineJson.xmlUrl,
+          htmlUrl: lineJson.htmlUrl,
+          title: item.title,
+          link: item.link,
+          summary: item.summary,
+          pubDate: pubDate,
+          pubDateYYMMDD: pubDate.toISOString().split('T')[0]
+        }
+      }));
+      
+    } catch (err) {
+
+      console.log(err);
+      console.log("-------------------------");
+      console.log("xmlUrl: " + lineJson.xmlUrl);
+      console.log("-------------------------");
+      
+    }
   }
   
   // 按时间顺序排序
   dataJson.sort((itemA, itemB) => itemA.pubDate < itemB.pubDate ? 1 : -1);
   // 默认为保存前 100 项的数据
   fs.writeFileSync(dataJsonPath, JSON.stringify(dataJson.slice(0, Math.min(maxDataJsonItemsNumber, dataJson.length)), null, 2), { encoding: 'utf-8' });
-  
+
 })();
