@@ -9,7 +9,7 @@
 
 **基本想法：**
 
-通过 GitHub Action 执行 `index.js` 脚本，生成 `opml.xml`，`opml.json` 和 `data.json` 三个文件，随后 bot 将这三个文件 commit 并 push 到这个 repo 里。
+通过 GitHub Action 执行 `index.js` 脚本，生成 `opml.xml`，`opml.json` 和 `data.json` 三个文件。
 
 其中 `opml.xml`（位于 `web/public`）和 `opml.json`（位于 `web/src/assets`）就是将 `README.md` 表格中的内容简单翻译为 XML 和 JSON 格式。而 `data.json` （位于 `web/src/assets`）文件，是读取所有 Blog 的 RSS 信息，将获取到的博文 RSS Items 按照时间顺序排列后，取出最新的 30 个生成的一个 JSON 文件，其用于在聚合页面中展示。
 
@@ -23,9 +23,8 @@
 
 1. 通过 `README.md` 生成相应文件的 `index.js` 脚本 ☑
 2. Vue 项目的基础框架 ☑
-3. GitHub Action 的 Push 功能 ✘
-4. Vue 项目的美化（[文档](https://staging-cn.vuejs.org/guide/introduction.html)） ✘
-5. GitHub Action 的部署功能 ✘
+3. Vue 项目的美化（[文档](https://staging-cn.vuejs.org/guide/introduction.html)） ✘
+4. GitHub Action 的部署功能 ✘
 5. 南大协同表格支持（[文档](https://seatable.github.io/seatable-scripts-cn/)） ✘
 
 **欢迎贡献：**
