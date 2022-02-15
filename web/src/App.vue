@@ -7,7 +7,14 @@ import dataJson from './assets/data.json'
 <template>
   <header id="header">
     <div id="header-inner">
-      Header
+      <span id="logo-left">
+        <img id="logo" src="./assets/logo.png" alt="Logo" />
+        <span id="logo-text">NJU-LUG Blogroll</span>
+      </span>
+      <a id="logo-right" target="_blank" href="https://github.com/nju-lug/blogroll">
+        <img id="logo-github" src="./assets/github.png" alt="Logo" />
+        <span id="logo-text">GitHub</span>
+      </a>
     </div>
   </header>
 
