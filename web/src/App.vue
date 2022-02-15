@@ -5,18 +5,28 @@ import dataJson from './assets/data.json'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      </div>
+  <header id="header">
+    <div id="header-inner">
+      Header
+    </div>
   </header>
 
-  <main>
-    <div  v-for="item in dataJson">
-      <SummaryCard :props="item"/>
-    </div>
-  </main>
+  <div id="container">
+    <main>
+      <div id="main">
+        <article v-for="item in dataJson">
+          <SummaryCard :props="item" />
+        </article>
+      </div>
+    </main>
+  
+    <aside>
+      <div id="sidebar">Something</div>
+    </aside>
+  </div>
+
 </template>
 
 <style>
-@import './assets/base.css';
+@import "./assets/base.css";
 </style>

@@ -8,12 +8,56 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green"><a :href="props.link">{{ props.title }}</a></h1>
-    <h3>{{ props.name + '    ' + props.pubDateYYMMDD }}</h3>
+  <div class="summary" :key="props.link">
+    <a class="summary-title" :href="props.link" target="_blank">{{ props.title }}</a>
+    <div class="summary-info">
+      <a class="summary-name" :href="props.htmlUrl" target="_blank">{{ props.name }}</a>
+      <span class="summary-time">{{ props.pubDateYYMMDD }}</span>
+    </div>
     <p v-html="props.summary"></p>
   </div>
 </template>
 
 <style scoped>
+.summary {
+  -webkit-box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
+  box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px 30px 20px 30px;
+  margin: 0px 20px 20px 20px;
+}
+.summary-title {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #444950;
+}
+
+.summary-title:hover {
+  color: #3273dc;
+}
+
+.summary-info {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.summary-name {
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+  background-color: #84b3ff;
+  margin-right: 10px;
+}
+
+.summary-time {
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+  background-color: #afafaf;
+}
 </style>
