@@ -1,0 +1,9 @@
+name = "blogroll"
+type = "webpack"
+account_id = "ae4cd2700bbfe3ca1be759f084aadce7"
+workers_dev = true
+zone_id = "e758113453e9566463c10457ae9182c6"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"

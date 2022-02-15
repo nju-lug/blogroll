@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "cd web && vite",
+    "gen": "node index.js",
     "build": "cd web && vite build",
     "preview": "cd web && vite preview --port 5050"
   },
