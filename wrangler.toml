@@ -5,5 +5,5 @@ workers_dev = true
 zone_id = "e758113453e9566463c10457ae9182c6"
 
 [site]
-bucket = "./dist"
+bucket = "./web/dist"
 entry-point = "workers-site"
