@@ -9,7 +9,7 @@ const opmlXmlContentTitle = 'NJU-LUG Blogroll';
 const readmeMdPath = './README.md';
 const opmlJsonPath = './web/src/assets/opml.json';
 const dataJsonPath = './web/src/assets/data.json';
-const maxDataJsonItemsNumber = 30;  // 保存前三十项
+const maxDataJsonItemsNumber = 40;  // 保存前四十项
 const opmlXmlPath = './web/public/opml.xml';
 const opmlXmlContentOp = '<opml version="2.0">\n  <head>\n    <title>' + opmlXmlContentTitle + '</title>\n  </head>\n  <body>\n\n';
 const opmlXmlContentEd = '\n  </body>\n</opml>';
@@ -75,7 +75,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
   
   // 按时间顺序排序
   dataJson.sort((itemA, itemB) => itemA.pubDate < itemB.pubDate ? 1 : -1);
-  // 默认为保存前 30 项的数据
+  // 默认为保存前 n 项的数据
   fs.writeFileSync(dataJsonPath, JSON.stringify(dataJson.slice(0, Math.min(maxDataJsonItemsNumber, dataJson.length)), null, 2), { encoding: 'utf-8' });
 
 })();
