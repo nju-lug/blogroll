@@ -1,6 +1,5 @@
 // 文件读取包
 const fs = require('fs');
-const { exit } = require('process');
 // 引入 RSS 解析第三方包
 const Parser = require('rss-parser');
 const parser = new Parser();
@@ -10,7 +9,7 @@ const opmlXmlContentTitle = 'NJU-LUG Blogroll';
 const readmeMdPath = './README.md';
 const opmlJsonPath = './web/src/assets/opml.json';
 const dataJsonPath = './web/src/assets/data.json';
-const maxDataJsonItemsNumber = 30;
+const maxDataJsonItemsNumber = 30;  // 保存前三十项
 const opmlXmlPath = './web/public/opml.xml';
 const opmlXmlContentOp = '<opml version="2.0">\n  <head>\n    <title>' + opmlXmlContentTitle + '</title>\n  </head>\n  <body>\n\n';
 const opmlXmlContentEd = '\n  </body>\n</opml>';
@@ -44,6 +43,8 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
   for (const lineJson of opmlJson) {
 
     try {
+
+      // 读取 RSS 的具体内容
       const feed = await parser.parseURL(lineJson.xmlUrl);
       
       // 数组合并
@@ -63,6 +64,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
       
     } catch (err) {
 
+      // 网络超时，进行 Log 报告
       console.log(err);
       console.log("-------------------------");
       console.log("xmlUrl: " + lineJson.xmlUrl);
