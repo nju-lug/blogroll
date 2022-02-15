@@ -1,9 +1,9 @@
 name = "blogroll"
 type = "webpack"
-account_id = "8b594a098b4be5946860cee0cf79f104"
+account_id = "ae4cd2700bbfe3ca1be759f084aadce7"
 workers_dev = true
-route = "blogroll.njulug.org/*"
-zone_id = "cd50d75141e3c6095863f20a0edfc0e7"
+zone_id = "e758113453e9566463c10457ae9182c6"
+route = "blogroll.orangex4.cool/*"
 
 [site]
 bucket = "./web/dist"

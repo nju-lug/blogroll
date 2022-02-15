@@ -5,11 +5,11 @@
 
 ## 聚合页面
 
-[聚合页面](https://blogroll.njulug.org/) 自动聚合这个 `README.md` 文件的表格中的所有 RSS 源，并以用户友好的方式显示出来。
+[聚合页面](https://blogroll.orangex4.cool/) 自动聚合这个 `README.md` 文件的表格中的所有 RSS 源，并以用户友好的方式显示出来。
 
-欢迎在线浏览：https://blogroll.njulug.org/
+欢迎在线浏览：https://blogroll.orangex4.cool/
 
-聚合页面使用 Vue 框架编写，在每次 Push 之后，与每天定时 0 点和 12 点的时候，均会通过 GitHub Action 自动集成和部署到 Cloudflare 中。
+聚合页面使用 Vue 框架编写，在每次 Push 之后，与每天定时 0 点和 12 点的时候，均会通过 GitHub Action 自动集成和部署到 Cloudflare 上。
 
 聚合页面由 [@OrangeX4](https://github.com/OrangeX4) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issues。
 
@@ -51,7 +51,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 
 ## OPML
 
-`opml.xml` 地址：https://blogroll.njulug.org/opml.xml
+`opml.xml` 地址：https://blogroll.orangex4.cool/opml.xml
 
 你可以使用 `opml.xml` 文件在 Inoreader 里持续订阅，或在 Feedly 下载之后导入。
 
