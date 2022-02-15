@@ -14,7 +14,7 @@ defineProps({
       <a class="summary-name" :href="props.htmlUrl" target="_blank">{{ props.name }}</a>
       <span class="summary-time">{{ props.pubDateYYMMDD }}</span>
     </div>
-    <p v-html="props.summary"></p>
+    <div v-html="props.summary"></div>
   </div>
 </template>
 
