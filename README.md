@@ -72,6 +72,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Typoverflow's Blog | https://blog.typoverflow.me/index.php/feed/ | https://blog.typoverflow.me/ |
 | Cmj's Blog | https://blog.caomingjun.com/atom.xml | https://blog.caomingjun.com/ |
 | Mexii's Blog | https://blog.mexii.one/atom.xml | https://blog.mexii.one/ |
+| LadderOperator's Blog | https://ladderoperator.top/index.xml | https://ladderoperator.top |
 
 
 ## OPML
