@@ -5,8 +5,11 @@
   <body>
 
   <outline title="OrangeX4's Blog" xmlUrl="https://orangex4.cool/atom.xml" htmlUrl="https://orangex4.cool/" />
+  <outline title="Idealclover's Blog" xmlUrl="https://idealclover.top/feed" htmlUrl="https://idealclover.top/" />
+  <outline title="Typoverflow's Blog" xmlUrl="https://blog.typoverflow.me/index.php/feed/" htmlUrl="https://blog.typoverflow.me/" />
   <outline title="Cmj's Blog" xmlUrl="https://blog.caomingjun.com/atom.xml" htmlUrl="https://blog.caomingjun.com/" />
   <outline title="Mexii's Blog" xmlUrl="https://blog.mexii.one/atom.xml" htmlUrl="https://blog.mexii.one/" />
+  <outline title="LadderOperator's Blog" xmlUrl="https://ladderoperator.top/index.xml" htmlUrl="https://ladderoperator.top" />
 
   </body>
 </opml>

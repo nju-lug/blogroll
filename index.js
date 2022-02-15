@@ -56,7 +56,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
           htmlUrl: lineJson.htmlUrl,
           title: item.title,
           link: item.link,
-          summary: item.summary,
+          summary: item.summary ? item.summary : item.content,
           pubDate: pubDate,
           pubDateYYMMDD: pubDate.toISOString().split('T')[0]
         }
