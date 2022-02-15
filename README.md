@@ -23,24 +23,11 @@
 
 1. 通过 `README.md` 生成相应文件的 `index.js` 脚本 ☑
 2. Vue 项目的基础框架 ☑
-3. Vue 项目的美化（[文档](https://staging-cn.vuejs.org/guide/introduction.html)） ✘
+3. Vue 项目的美化（[文档](https://staging-cn.vuejs.org/guide/introduction.html)） ☑
 4. GitHub Action 的部署功能 ✘
 5. 南大协同表格支持（[文档](https://seatable.github.io/seatable-scripts-cn/)） ✘
 
-**欢迎贡献：**
-
-Vue 项目开发方式（需要先安装 NodeJS）：
-
-```sh
-# 克隆并安装依赖
-git clone https://github.com/nju-lug/blogroll.git
-cd blogroll
-npm install
-
-# 开始开发
-npm run dev
-```
-
+![](https://gitee.com/orangex4/picgo/raw/master/images/20220215173854.png)
 
 ## FAQ
 
