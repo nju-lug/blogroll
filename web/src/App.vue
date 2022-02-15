@@ -1,7 +1,8 @@
 <script setup>
 import SummaryCard from './components/SummaryCard.vue'
-import opmlJson from './assets/opml.json'
+import BlogInfoCard from './components/BlogInfoCard.vue'
 import dataJson from './assets/data.json'
+import opmlJson from './assets/opml.json'
 </script>
 
 <template>
@@ -26,12 +27,17 @@ import dataJson from './assets/data.json'
         </article>
       </div>
     </main>
-  
+
     <aside>
-      <div id="sidebar">Something</div>
+      <div id="sidebar">
+        <div id="sidebar-content">
+          <template v-for="item in opmlJson">
+            <BlogInfoCard :props="item" />
+          </template>
+        </div>
+      </div>
     </aside>
   </div>
-
 </template>
 
 <style>
