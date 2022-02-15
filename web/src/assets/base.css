@@ -1,8 +1,30 @@
 body {
   margin: 0;
+  overflow-x: hidden;
   color: #2c323c;
   background-color: #f6f6f6;
   font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif, Arial;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  margin: 5px 0;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(175, 175, 175, 0.75);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  background-color: rgba(100, 100, 100, 0.85);
 }
 
 a {
@@ -110,3 +132,4 @@ a:hover {
     display: none;
   }
 }
+
