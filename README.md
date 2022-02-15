@@ -1,6 +1,6 @@
 # NJU-LUG Blogroll
 
-南京大学 Linux User Group 收集的同学们的 Blog。
+南京大学 [Linux User Group](https://git.nju.edu.cn/nju-lug/lug-introduction) 收集的同学们的 Blog。
 
 
 ## 聚合页面
