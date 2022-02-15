@@ -9,6 +9,8 @@
 
 欢迎在线浏览：https://blogroll.orangex4.workers.dev/
 
+聚合页面使用 Vue 框架编写，在每次 Push 之后，且每天定时 0 点和 12 点，均会通过 GitHub Action 自动集成和部署。
+
 
 ## FAQ
 
