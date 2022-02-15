@@ -51,7 +51,7 @@ npm run dev
 
 > 有些 Blog 太久没更新或失效了，怎么办？
 
-提 Pull Request 将其删除，同时我们也会通过 Github Action 的自动更新中
+提 Pull Request 将其删除，同时我们也会通过 Github Action 的自动更新中的 Log 来判断是否失效。
 
 
 ## 添加方式
