@@ -1,6 +1,6 @@
 {
   "name": "blogroll",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "cd web && vite",
     "gen": "node index.js",
@@ -8,6 +8,7 @@
     "preview": "cd web && vite preview --port 5050"
   },
   "dependencies": {
+    "rss": "^1.2.2",
     "rss-parser": "^3.12.0",
     "vue": "^3.2.29"
   },
