@@ -14,6 +14,13 @@
 聚合页面由 [@OrangeX4](https://github.com/OrangeX4) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issues。
 
 
+## 聚合 RSS 订阅
+
+我们也制作了一个聚合 RSS，欢迎来订阅：
+
+https://blogroll.njulug.org/rss.xml
+
+
 ## FAQ
 
 > 萌新也可以加 Blog 列表么？
