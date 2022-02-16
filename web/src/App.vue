@@ -40,6 +40,19 @@ import opmlJson from './assets/opml.json'
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    var imgs = document.getElementsByTagName('img');
+    for(var i = 0; i < imgs.length; i++) {
+      if (imgs[i].dataset.src) {
+        imgs[i].src = imgs[i].dataset.src;
+      }
+    }
+  }
+}
+</script>
+
 <style>
 @import "./assets/base.css";
 </style>

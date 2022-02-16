@@ -31,6 +31,7 @@ defineProps({
   font-size: xx-large;
   font-weight: bolder;
   color: #444950;
+  word-break: break-all;
 }
 
 .summary-title:hover {
@@ -39,10 +40,11 @@ defineProps({
 
 .summary-info {
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .summary-name {
+  display: inline-block;
   font-size: medium;
   font-weight: bold;
   border-radius: 5px;
@@ -50,9 +52,11 @@ defineProps({
   padding: 5px;
   background-color: #84b3ff;
   margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .summary-time {
+  display: inline-block;
   font-size: medium;
   font-weight: bold;
   border-radius: 5px;

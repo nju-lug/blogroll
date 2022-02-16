@@ -6,6 +6,12 @@ body {
   font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif, Arial;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
   background-color: transparent;

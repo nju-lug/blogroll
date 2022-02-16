@@ -70,6 +70,26 @@
     "pubDateYYMMDD": "2022-01-15"
   },
   {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "高速旋转球体的物理动画模拟（虚幻4实现）",
+    "link": "https://chr.fan/ue4-ball/",
+    "summary": "<div><img width=\"300\" height=\"181\" src=\"https://chr.fan/wp-content/uploads/2022/01/54-300x181.png\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2022/01/54-300x181.png 300w, https://chr.fan/wp-content/uploads/2022/01/54-1024x617.png 1024w, https://chr.fan/wp-content/uploads/2022/01/54-768x462.png 768w, https://chr.fan/wp-content/uploads/2022/01/54-1536x925.png 1536w, https://chr.fan/wp-content/uploads/2022/01/54.png 2006w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>GitHub仓库 地址 前几天突发奇想，虚幻4里有没有办法模拟出乒乓球在真实世界的运动规律呢（比如下旋的回弹，上旋加速等）？ 据我 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/ue4-ball/\">高速旋转球体的物理动画模拟（虚幻4实现）</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2022-01-01T15:36:33.000Z",
+    "pubDateYYMMDD": "2022-01-01"
+  },
+  {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "GAMES101学习笔记",
+    "link": "https://chr.fan/games101/",
+    "summary": "<div><img width=\"300\" height=\"170\" src=\"https://chr.fan/wp-content/uploads/2022/01/64-300x170.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2022/01/64-300x170.jpg 300w, https://chr.fan/wp-content/uploads/2022/01/64-1024x580.jpg 1024w, https://chr.fan/wp-content/uploads/2022/01/64-768x435.jpg 768w, https://chr.fan/wp-content/uploads/2022/01/64-1536x869.jpg 1536w, https://chr.fan/wp-content/uploads/2022/01/64.jpg 2048w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>GAMES101课后作业仓库 博客的LaTeX支持真的差得离谱……符号过大，格式也不太好看，可能以后会比较少在博客上写数学相关的东 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/games101/\">GAMES101学习笔记</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2022-01-01T15:27:59.000Z",
+    "pubDateYYMMDD": "2022-01-01"
+  },
+  {
     "name": "Typoverflow's Blog",
     "xmlUrl": "https://blog.typoverflow.me/index.php/feed/",
     "htmlUrl": "https://blog.typoverflow.me/",
@@ -98,6 +118,16 @@
     "summary": "由于某次 Wordpress 差点崩没了的经历，细思恐极，觉得文章应该有个比较好的备份模式。故 （花了快半年） 决定切换到 Hugo！ 这也是我的第",
     "pubDate": "2021-12-13T00:00:00.000Z",
     "pubDateYYMMDD": "2021-12-13"
+  },
+  {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "Arch踩坑记录",
+    "link": "https://chr.fan/arch%e8%b8%a9%e5%9d%91%e8%ae%b0%e5%bd%95/",
+    "summary": "<div><img width=\"273\" height=\"300\" src=\"https://chr.fan/wp-content/uploads/2021/10/93619259_p0-273x300.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/10/93619259_p0-273x300.jpg 273w, https://chr.fan/wp-content/uploads/2021/10/93619259_p0-932x1024.jpg 932w, https://chr.fan/wp-content/uploads/2021/10/93619259_p0-768x844.jpg 768w, https://chr.fan/wp-content/uploads/2021/10/93619259_p0-1398x1536.jpg 1398w, https://chr.fan/wp-content/uploads/2021/10/93619259_p0-1864x2048.jpg 1864w\" sizes=\"(max-width: 273px) 100vw, 273px\" /></div>\n<p>不定期更新遇到的新问题，仅做记录，仅限我的笔记本上可以如下解决问题 无声音，No input or output devices  ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/arch%e8%b8%a9%e5%9d%91%e8%ae%b0%e5%bd%95/\">Arch踩坑记录</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-10-23T09:49:36.000Z",
+    "pubDateYYMMDD": "2021-10-23"
   },
   {
     "name": "Cmj's Blog",
@@ -200,6 +230,36 @@
     "pubDateYYMMDD": "2021-09-02"
   },
   {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "Live2DViewerEX 创意工坊lpk文件分析 – 动态调试Unity程序",
+    "link": "https://chr.fan/lpk-decrypt/",
+    "summary": "<div><img width=\"300\" height=\"157\" src=\"https://chr.fan/wp-content/uploads/2021/05/8-300x157.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/8-300x157.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/8-1024x536.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/8-768x402.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/8.jpg 1300w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>声明：本人不会提供任何解密lpk文件的程序。本文仅仅是技术向的探讨、经验分享。 如果您认为本文侵犯了您的权益，请联系我，我会立刻删 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/lpk-decrypt/\">Live2DViewerEX 创意工坊lpk文件分析 &#8211; 动态调试Unity程序</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-08-31T20:45:13.000Z",
+    "pubDateYYMMDD": "2021-08-31"
+  },
+  {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "Linux 桌面环境 开机代理脚本",
+    "link": "https://chr.fan/linux-startup-proxy-script/",
+    "summary": "<div><img width=\"300\" height=\"212\" src=\"https://chr.fan/wp-content/uploads/2021/05/11-300x212.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/11-300x212.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/11-1024x722.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/11-768x541.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/11.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>原本一直在笔记本上用Ubuntu，桌面是Gnome。但是一直感觉不好用，于是重装了个Arch，桌面也换用KDE。 因为平时习惯于使 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/linux-startup-proxy-script/\">Linux 桌面环境 开机代理脚本</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-07-29T11:31:52.000Z",
+    "pubDateYYMMDD": "2021-07-29"
+  },
+  {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "python tgbot自制代码模板",
+    "link": "https://chr.fan/python-tgbot-template/",
+    "summary": "<div><img width=\"300\" height=\"200\" src=\"https://chr.fan/wp-content/uploads/2021/05/22-300x200.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/22-300x200.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/22-1024x683.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/22-768x512.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/22-1536x1024.jpg 1536w, https://chr.fan/wp-content/uploads/2021/05/22.jpg 1920w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>TL;DR： GitHub仓库在这里 自从学会使用python-telegram-bot包之后，我一直觉得实际编写程序的时候这个包 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/python-tgbot-template/\">python tgbot自制代码模板</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-06-26T14:14:06.000Z",
+    "pubDateYYMMDD": "2021-06-26"
+  },
+  {
     "name": "OrangeX4's Blog",
     "xmlUrl": "https://orangex4.cool/atom.xml",
     "htmlUrl": "https://orangex4.cool/",
@@ -260,6 +320,26 @@
     "pubDateYYMMDD": "2021-05-22"
   },
   {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "Padavan路由器搭建v2ray服务",
+    "link": "https://chr.fan/padavan-v2ray/",
+    "summary": "<div><img width=\"300\" height=\"212\" src=\"https://chr.fan/wp-content/uploads/2021/05/10-300x212.png\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/10-300x212.png 300w, https://chr.fan/wp-content/uploads/2021/05/10-768x543.png 768w, https://chr.fan/wp-content/uploads/2021/05/10.png 992w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>因为我的所有设备上默认搜索引擎都是Google，在设备上（尤其是手机）开关一些魔法软件会比较麻烦，而且耗电。 所以为什么不把这项繁 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/padavan-v2ray/\">Padavan路由器搭建v2ray服务</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-05-11T12:51:18.000Z",
+    "pubDateYYMMDD": "2021-05-11"
+  },
+  {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "Nginx+MariaDB+PHP+WordPress搭建个人网站",
+    "link": "https://chr.fan/website-set-up/",
+    "summary": "<div><img width=\"300\" height=\"212\" src=\"https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-300x212.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-300x212.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-1024x724.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-768x543.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628.jpg 1228w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>建站的教程网上已经一抓一大把了，所以这篇文章并没有什么参考价值而且我并不懂什么Nginx和PHP，仅仅是作为个人存档用，以防万一之 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/website-set-up/\">Nginx+MariaDB+PHP+WordPress搭建个人网站</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-05-10T09:05:50.000Z",
+    "pubDateYYMMDD": "2021-05-10"
+  },
+  {
     "name": "Typoverflow's Blog",
     "xmlUrl": "https://blog.typoverflow.me/index.php/feed/",
     "htmlUrl": "https://blog.typoverflow.me/",
@@ -268,6 +348,16 @@
     "summary": "KL散度定义$$D_{\\text{KL}}(p\\|q) = -\\int p(x)\\log\\frac{q(x)}{p(x)}\\mathrm{d}x$$$D_{\\text{KL}}(p\\|q)\\ge...",
     "pubDate": "2021-05-09T08:55:00.000Z",
     "pubDateYYMMDD": "2021-05-09"
+  },
+  {
+    "name": "Antares's Blog",
+    "xmlUrl": "https://chr.fan/feed",
+    "htmlUrl": "https://chr.fan",
+    "title": "Hello world!",
+    "link": "https://chr.fan/hello-world/",
+    "summary": "<div><img width=\"300\" height=\"279\" src=\"https://chr.fan/wp-content/uploads/2021/05/illust_20959870_20210421_011254-300x279.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/illust_20959870_20210421_011254-300x279.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/illust_20959870_20210421_011254.jpg 639w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>终于在今天把一直以来想要搭的个人网站搭起来了。因为完全不懂php和nginx，搭的时候遇到了一些小小的麻烦，不过最后也都一个个解决 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/hello-world/\">Hello world!</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
+    "pubDate": "2021-05-04T18:39:15.000Z",
+    "pubDateYYMMDD": "2021-05-04"
   },
   {
     "name": "Idealclover's Blog",
@@ -298,5 +388,15 @@
     "summary": "<h1 id=\"vscode-用来记笔记究竟能有多酷炫\"   >\n          <a href=\"#vscode-用来记笔记究竟能有多酷炫\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>VSCode 用来记笔记究竟能有多酷炫?</h1>\n      \n<!-- #! https://zhuanlan.zhihu.com/p/366596949 -->\n<p>很少有人发现, <strong>VSCode</strong> 配上 <strong>Markdown</strong> 语言, 就能写出酷炫, 便捷, 且适应互联网的「数字化」学习笔记.</p>\n<p>我尝试用 VSCode 写了一段时间的笔记, 非常顺手, 而且管理起来非常方便, 我做的笔记就像这样:</p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://pic4.zhimg.com/80/v2-9e0a1762c0f90f507c3fb5cd6a34878b_720w.png\"  alt=\"\" />\n      </p>\n<p>使用 VSCode 做的「数字化」笔记, 你可以很容易的看出和其他的笔记软件完全不一样, 简直是笔记界的一股泥石流 (不是).</p>\n<p>事实上, 笔记要做成这样并不难, 只要尝试写几天, 就能轻松上手!</p>\n<p>下面是用 VSCode 记笔记的优势!</p>",
     "pubDate": "2021-04-19T16:00:00.000Z",
     "pubDateYYMMDD": "2021-04-19"
+  },
+  {
+    "name": "OrangeX4's Blog",
+    "xmlUrl": "https://orangex4.cool/atom.xml",
+    "htmlUrl": "https://orangex4.cool/",
+    "title": "GitNotes - 一个在线的 Git 托管笔记浏览应用",
+    "link": "https://blog.orangex4.cool/post/gitnotes-a-notes-views-for-git/",
+    "summary": "<h1 id=\"什么是-gitnotes\"   >\n          <a href=\"#什么是-gitnotes\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>什么是 GitNotes?</h1>\n      \n<p>这是一个我开发的笔记浏览应用, 用于浏览以 <strong>Markdown</strong> 书写的, 存放在 <strong>GitLab 或 GitHub</strong> 上的笔记.</p>\n<p>优点: <strong>数学公式支持和移动端适配</strong>.</p>\n<p>笔记 Git Repo 参考: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://github.com/OrangeX4/NJUAI-Notes\" >NJUAI-Notes</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></p>\n<p>对应页面: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://notes.orangex4.cool/?git=gitlab\" >OrangeX’s Notes</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></p>\n\n        <h2 id=\"demo\"   >\n          <a href=\"#demo\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>Demo</h2>\n      \n\n        <h3 id=\"orangex4s-notes\"   >\n          <a href=\"#orangex4s-notes\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>OrangeX4’s Notes</h3>\n      \n<p>你可以<strong>直接使用</strong>这个网址查看你要查看的笔记 Repo, 并不需要挂载你自己的 GitNotes.</p>\n\n        <h2 id=\"原理\"   >\n          <a href=\"#原理\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>原理</h2>\n      \n<ul>\n<li>界面: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://zh-hans.reactjs.org/\" >React</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span> + <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://material-ui.com/zh/\" >Material UI</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n<li>API: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://docs.github.com/en/rest\" >GitHub API</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span> + <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://docs.gitlab.com/ee/api/\" >GitLab API</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n<li>Markdown 支持: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://github.com/markdown-it/markdown-it\" >Markdown-It</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n<li>数学公式支持: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://katex.org/\" >Katex</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n</ul>\n\n        <h2 id=\"界面\"   >\n          <a href=\"#界面\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>界面</h2>\n      \n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://gitee.com/orangex4/picgo/raw/master/images/20210927180422.png\"  alt=\"\" />\n      </p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://gitee.com/orangex4/picgo/raw/master/images/20210927180448.png\"  alt=\"\" />\n      </p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://gitee.com/orangex4/picgo/raw/master/images/20210927180516.png\"  alt=\"\" />\n      </p>",
+    "pubDate": "2021-04-15T16:00:00.000Z",
+    "pubDateYYMMDD": "2021-04-15"
   }
 ]
