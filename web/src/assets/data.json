@@ -1,5 +1,25 @@
 [
   {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "Hello World on my Hexo blog",
+    "link": "https://blog.lyc8503.site/2098/12/31/hello-world/",
+    "summary": "\n    \n      \n      \n        <p>前段时间又调整了我的 Orange Pi 架构, 因此 Wordpress 上的博客又咕咕咕了好久没有写.<br>到现在还忙于学业上的, 亦或是其他程序上的琐事没能将服务器的应用全面 docker 化, 博客也就没有部署. 现在尝试使用 Hexo + Github + Ne\n      \n    \n    ",
+    "pubDate": "2098-12-31T16:00:00.000Z",
+    "pubDateYYMMDD": "2098-12-31"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep11. 升级 OpenWRT 至正式版系统",
+    "link": "https://blog.lyc8503.site/2022/02/24/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/11-upgrade-openwrt/",
+    "summary": "\n    \n      <p>前几天想在路由器上安装一些新软件包, 发现 opkg 新安装的大部分软件包很多出现类似 <code>__select_time64: symbol not found</code> 的报错无法正常运行.</p>\n<p>Google 搜索后发现我上次安装的 OpenWRT 是基于 snapshot 版本的, 内核中的库的接口发生了改变. </p>\n<blockquote>\n<p>The musl version upgrade in September changed the internal time handling from 32bit to 64bit even in the 32bit targets (like mipsel24).</p>\n</blockquote>\n<p>正好路由器使用上次的固件也出现过不稳定现象, 所以也借此机会回归无魔改的官方固件.</p>\n    \n    ",
+    "pubDate": "2022-02-24T14:22:08.000Z",
+    "pubDateYYMMDD": "2022-02-24"
+  },
+  {
     "name": "OrangeX4's Blog",
     "xmlUrl": "https://orangex4.cool/atom.xml",
     "htmlUrl": "https://orangex4.cool/",
@@ -58,6 +78,36 @@
     "summary": "<p>在刚刚过去的 2021 年，我在课内课外都折腾了不少东西（主要是在下半年）。其实这其中的许多东西都值得写一篇博客记录，但是我自从创建网站之后就比较忙，没有写，于是在这篇文章做一个总结。可能未来会补上那些博客。</p>",
     "pubDate": "2022-01-23T11:36:40.000Z",
     "pubDateYYMMDD": "2022-01-23"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep10. 使用群晖 QuickConnect 访问内网任意 / 第三方 TCP 服务",
+    "link": "https://blog.lyc8503.site/2022/01/21/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/10-all-in-quickconnect/",
+    "summary": "\n    \n      <p><strong>群晖的 QuickConnect</strong> 是群晖自带的一项内网穿透功能, 通过某宝的洗白服务, 自建的黑群晖也可以使用 QuickConnect 来进行内网穿透.</p>\n<p>QuickConnect 与群晖自家的应用搭配使用很方便, 可以实现<strong>内外网的无缝切换</strong>, 只需要填入 QuickConnect ID 即可.</p>\n<p>但<strong>缺点</strong>是 QuickConnect 功能只能在<strong>群晖官方的 APP</strong> 上使用, 而群晖的很多 APP 实际使用体验很差, 缺失很多最基本的功能.</p>\n<p><a href=\"https://blog.lyc8503.site/2021/08/24/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/9-syno-ipv6-ddns/\">AIO Ep.9</a> 中提到了使用 ipv6 DDNS 的方式, <a href=\"https://blog.lyc8503.site/2021/09/30/%E7%A1%AC%E4%BB%B6%E3%81%AE%E7%A0%94%E7%A9%B6/phicomm-n1/#more\">这篇有关 n1 盒子的文章</a>中展示了配置透明代理访问内网任意服务的方式. 但这种方法在目前 <strong>ipv6 尚未全面普及</strong>的时候仍有不便.(很多 Wi-Fi 不支持或默认未开启 ipv6, 必须使用热点共享.)</p>\n<p>最终经过搜索和实验我找到了使用 QuickConnect 代理所有应用流量的方法, 可以节约自己搭建反向代理或购买反向代理的费用.<del>(白嫖到榨干它)</del> 整理记录在此.</p>\n    \n    ",
+    "pubDate": "2022-01-21T15:18:34.000Z",
+    "pubDateYYMMDD": "2022-01-21"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "关于 SOP(同源策略) / CORS(跨源资源共享) / CSRF(跨站请求伪造) 的一些认识",
+    "link": "https://blog.lyc8503.site/2022/01/20/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/Web/cors-and-csrf/",
+    "summary": "\n    \n      <p><strong>同源策略</strong>是指在<a href=\"https://zh.wikipedia.org/wiki/排版引擎\" target=\"_blank\" rel=\"noopener\">Web浏览器</a>中，允许某个网页<a href=\"https://zh.wikipedia.org/wiki/腳本\" target=\"_blank\" rel=\"noopener\">脚本</a>访问另一个网页的数据，但前提是这两个网页必须有相同的<a href=\"https://zh.wikipedia.org/wiki/统一资源标志符\" target=\"_blank\" rel=\"noopener\">URI</a>、<a href=\"https://zh.wikipedia.org/wiki/主機名稱\" target=\"_blank\" rel=\"noopener\">主机名</a>和<a href=\"https://zh.wikipedia.org/wiki/通訊埠\" target=\"_blank\" rel=\"noopener\">端口号</a>，一旦两个网站满足上述条件，这两个网站就被认定为具有相同来源。此策略可防止某个网页上的恶意<a href=\"https://zh.wikipedia.org/wiki/脚本\" target=\"_blank\" rel=\"noopener\">脚本</a>通过该页面的<a href=\"https://zh.wikipedia.org/wiki/文档对象模型\" target=\"_blank\" rel=\"noopener\">文档对象模型</a>访问另一网页上的敏感数据。</p>\n<p><strong>跨域资源共享</strong>（英语：Cross-origin resource sharing，缩写：CORS），用于让网页的受限资源能够被其他域名的页面访问的一种机制。</p>\n<p><strong>跨站请求伪造</strong>（英语：Cross-site request forgery），也被称为 <strong>one-click attack</strong> 或者 <strong>session riding</strong>，通常缩写为 <strong>CSRF</strong> 或者 <strong>XSRF</strong>， 是一种挟制用户在当前已登录的Web应用程序上执行非本意的操作的攻击方法。</p>\n    \n    ",
+    "pubDate": "2022-01-20T03:54:55.000Z",
+    "pubDateYYMMDD": "2022-01-20"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "Windows 下的实用工具 PowerToys 推荐",
+    "link": "https://blog.lyc8503.site/2022/01/20/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB0w0/windows-powertoys/",
+    "summary": "\n    \n      <p>来安利一下这个非常强大的软件 PowerToys.</p>\n<p>PowerToys 是微软官方和开源社区共同维护的一组实用工具.</p>\n<p>包含了 Explorer markdown/pdf/svg 预览, 屏幕取色, PowerToys Run(快速启动), 正则文件重命名, 快捷键映射, 图像大小调整, 快速定位鼠标, 保持唤醒等一系列十分实用的功能.</p>\n    \n    ",
+    "pubDate": "2022-01-20T03:38:25.000Z",
+    "pubDateYYMMDD": "2022-01-20"
   },
   {
     "name": "Typoverflow's Blog",
@@ -120,6 +170,26 @@
     "pubDateYYMMDD": "2021-12-13"
   },
   {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "H110m + QNCT 的 OpenCore MacOS Big Sur 黑苹果尝试",
+    "link": "https://blog.lyc8503.site/2021/11/29/%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6=)/%E5%85%B6%E4%BB%96/hackintosh-1/",
+    "summary": "\n    \n      <h4 id=\"0x00-前言\"><a href=\"#0x00-前言\" class=\"headerlink\" title=\"0x00 前言\"></a>0x00 前言</h4><p>去年苹果发布了搭载 M1 芯片的 MacBook, 随后新一代的 Mac mini 和 iMac 也使用了 Arm 架构的 M1 芯片. M1 Pro 和 M1 Max 让 M1 完全取代 Intel 芯片成为可能.</p>\n<p>目前的趋势是 M1 将会全面取代 x86 的 Intel CPU, 在技术层面上黑苹果会困难到几乎不可能. 同时黑苹果的价格优势也变得不再显著. 可能不过几年, “黑苹果”的技术就会淹没在历史的潮流中.</p>\n<p>所以趁着这最后的辉煌, 我也来尝试体验一下 Hackintosh.</p>\n    \n    ",
+    "pubDate": "2021-11-29T01:26:37.000Z",
+    "pubDateYYMMDD": "2021-11-29"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "Windows 下 TUN 全局透明代理的设置",
+    "link": "https://blog.lyc8503.site/2021/11/17/%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6=)/%E5%85%B6%E4%BB%96/configuring-tun/",
+    "summary": "\n    \n      <p>某些 Windows 系统内置的应用, 比如 SMB 或者 RDP, 不能设置 Socks5 代理.</p>\n<p>这样如果希望在公网上访问到家里服务器的 SMB 文件共享就不太方便了.</p>\n<p>还有一些应用 (比如 QQ / git) 不会默认使用系统代理, 需要手动设置, 也相对比较麻烦.</p>\n<p>上一篇文章中基于软路由网关的透明代理模式可以解决这种问题.</p>\n<p>可是笔记本不是只在一个固定的路由器下使用, 而需要携带到不同的网络环境下使用时, 设置<strong>基于 TUN 的全局代理</strong>则会更加方便.</p>\n    \n    ",
+    "pubDate": "2021-11-17T12:15:09.000Z",
+    "pubDateYYMMDD": "2021-11-17"
+  },
+  {
     "name": "Antares's Blog",
     "xmlUrl": "https://chr.fan/feed",
     "htmlUrl": "https://chr.fan",
@@ -138,6 +208,16 @@
     "summary": "解决Android Studio下flutter使用签名构建失败的问题",
     "pubDate": "2021-10-14T02:53:58.000Z",
     "pubDateYYMMDD": "2021-10-14"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "N1 盒子刷 Armbian 配置为软路由 & AP 方案记录",
+    "link": "https://blog.lyc8503.site/2021/09/30/%E7%A1%AC%E4%BB%B6%E3%81%AE%E7%A0%94%E7%A9%B6/phicomm-n1/",
+    "summary": "\n    \n      <p><del>每一场泡沫破碎的背后, 是一茬韭菜的哭泣, 更是一群垃圾佬的狂欢</del>(大雾)~~</p>\n    \n    ",
+    "pubDate": "2021-09-30T05:52:22.000Z",
+    "pubDateYYMMDD": "2021-09-30"
   },
   {
     "name": "Cmj's Blog",
@@ -160,6 +240,16 @@
     "pubDateYYMMDD": "2021-09-28"
   },
   {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "电子手写笔记解决方案 - iPlay 30(附刷机过程)",
+    "link": "https://blog.lyc8503.site/2021/09/27/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB0w0/iplay30-handwriting/",
+    "summary": "\n    \n      <p>开始读大学, 准备寻找一种电子手写笔记的解决方案~</p>\n<p>简单搜索了一下, 找到了以下几种方案.</p>\n<ul>\n<li><p>手写之后拍照上传</p>\n<p>优点: 无需专用设备, 书写手感好, 几乎无成本. 缺点: 麻烦低效, 要携带纸笔.</p>\n</li>\n<li><p>数位板</p>\n<p>优点: 低成本, 低延时. 缺点: 手眼不同步. 携带电脑和板, 重.</p>\n</li>\n<li><p>数位屏</p>\n<p>优点: 看着屏写, 手眼同步, 低延时. 缺点: 携带电脑和屏, 重. 数位屏较贵.</p>\n</li>\n<li><p>支持手写笔的平板</p>\n<p>优点: 手眼同步, 课后平板还能用于其他用处. 缺点: 手写延时高, 贵.</p>\n</li>\n<li><p>普通平板加被动电容笔</p>\n<p>优点: 便宜的一塌糊涂. 缺点: 基本就是垃圾.</p>\n</li>\n</ul>\n    \n    ",
+    "pubDate": "2021-09-27T02:58:31.000Z",
+    "pubDateYYMMDD": "2021-09-27"
+  },
+  {
     "name": "OrangeX4's Blog",
     "xmlUrl": "https://orangex4.cool/atom.xml",
     "htmlUrl": "https://orangex4.cool/",
@@ -180,6 +270,16 @@
     "pubDateYYMMDD": "2021-09-17"
   },
   {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "尝试自己动手维修坏掉的 Orange Pi~ Part. 2",
+    "link": "https://blog.lyc8503.site/2021/09/17/%E7%A1%AC%E4%BB%B6%E3%81%AE%E7%A0%94%E7%A9%B6/orange-pi-repair-2/",
+    "summary": "\n    \n      <p>时隔一年又一个月, 由于最近硬件价格实在是比较魔幻, 更加舍不得把我角落里吃灰已久 Orange Pi PC 2 扔掉了. 毕竟同样使用全志 H5 Soc 的 Orange Pi Zero Plus 小板现在都超过它当时的价格了.</p>\n<p>正好最近心血来潮升级了 电烙铁, 可调电源, 万用表等一系列工具, 所以就来继续尝试看看维修. :P</p>\n<p>维修的上一段尝试在 <a href=\"https://blog.lyc8503.site/2020/08/13/%20%E7%A1%AC%E4%BB%B6%E3%81%AE%E7%A0%94%E7%A9%B6%20/orange-pi-repair/\">这里</a>.</p>\n    \n    ",
+    "pubDate": "2021-09-17T07:36:51.000Z",
+    "pubDateYYMMDD": "2021-09-17"
+  },
+  {
     "name": "Cmj's Blog",
     "xmlUrl": "https://blog.caomingjun.com/atom.xml",
     "htmlUrl": "https://blog.caomingjun.com/",
@@ -188,6 +288,16 @@
     "summary": "计算机系统基础课的实验课要求阅读《提问的智慧》和《别像弱智一样提问》这两篇文章，并写一篇不少于800字的读后感。作为记录，我把读后感也发在博客里。",
     "pubDate": "2021-09-12T15:07:04.000Z",
     "pubDateYYMMDD": "2021-09-12"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "Hp 39gs 图形科学计算器硬件魔改 48gii 小记",
+    "link": "https://blog.lyc8503.site/2021/09/10/%E7%A1%AC%E4%BB%B6%E3%81%AE%E7%A0%94%E7%A9%B6/hp39gs-modify/",
+    "summary": "\n    \n      <p>高中期间学校要求竞赛使用的计算器是 卡西欧 991 CNX, 可是它功能太少, 很多数学计算都不能进行. 学校又不允许带手机.</p>\n<p>于是只能转向”古老”的科学计算器, 发现了一款性价比很高的科学计算器 – HP 39gs.</p>\n<p>HP 39gs 这款机器现在某宝涨价到近 80r 了, 我当时咸鱼入手的时候只要 50r, 之前好像还只要 20-30r, </p>\n<p>HP 39gs 本身功能也不是特别多, 可能比起卡西欧只多了绘图和编程的功能.</p>\n<p>但是 HP 39gs 和支持 CAS 的 HP 48gii 只差了按键印刷和 一块 Flash 而已. 魔改之后计算器大概就变成了一个简陋版 Matlab 了. 可玩性增强很多.</p>\n    \n    ",
+    "pubDate": "2021-09-10T06:27:22.000Z",
+    "pubDateYYMMDD": "2021-09-10"
   },
   {
     "name": "Cmj's Blog",
@@ -240,163 +350,53 @@
     "pubDateYYMMDD": "2021-08-31"
   },
   {
-    "name": "Antares's Blog",
-    "xmlUrl": "https://chr.fan/feed",
-    "htmlUrl": "https://chr.fan",
-    "title": "Linux 桌面环境 开机代理脚本",
-    "link": "https://chr.fan/linux-startup-proxy-script/",
-    "summary": "<div><img width=\"300\" height=\"212\" src=\"https://chr.fan/wp-content/uploads/2021/05/11-300x212.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/11-300x212.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/11-1024x722.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/11-768x541.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/11.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>原本一直在笔记本上用Ubuntu，桌面是Gnome。但是一直感觉不好用，于是重装了个Arch，桌面也换用KDE。 因为平时习惯于使 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/linux-startup-proxy-script/\">Linux 桌面环境 开机代理脚本</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
-    "pubDate": "2021-07-29T11:31:52.000Z",
-    "pubDateYYMMDD": "2021-07-29"
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "生成含有使用者备用名称 (SAN) 的 SSL 证书, 解决 Chrome 和 Okhttp HTTPS 报错",
+    "link": "https://blog.lyc8503.site/2021/08/29/%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6=)/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4&%E9%85%8D%E7%BD%AEder%E6%97%A5%E5%B8%B8/self-signed-cert-with-san/",
+    "summary": "\n    \n      <p>之前设置了 ipv6 DDNS, 可以从外网访问到家里 AIO 上的 http 服务器.</p>\n<p>由于只是自己使用, 就打算使用自签名证书. 但按照网上教程生成的证书导入 Chrome 后报错 <code>ERR_CERT_COMMON_NAME_INVALID</code>, 在 OkHttp 中报错<code>Hostname xxx is not verified.</code></p>\n<p>查阅资料发现是生成的证书没有 SAN 的缘故, 网上生成 SAN 自签名证书的教程很多都有问题, 最终找到一种可行的方法, 记录在此.</p>\n    \n    ",
+    "pubDate": "2021-08-29T06:58:09.000Z",
+    "pubDateYYMMDD": "2021-08-29"
   },
   {
-    "name": "Antares's Blog",
-    "xmlUrl": "https://chr.fan/feed",
-    "htmlUrl": "https://chr.fan",
-    "title": "python tgbot自制代码模板",
-    "link": "https://chr.fan/python-tgbot-template/",
-    "summary": "<div><img width=\"300\" height=\"200\" src=\"https://chr.fan/wp-content/uploads/2021/05/22-300x200.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/22-300x200.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/22-1024x683.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/22-768x512.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/22-1536x1024.jpg 1536w, https://chr.fan/wp-content/uploads/2021/05/22.jpg 1920w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>TL;DR： GitHub仓库在这里 自从学会使用python-telegram-bot包之后，我一直觉得实际编写程序的时候这个包 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/python-tgbot-template/\">python tgbot自制代码模板</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
-    "pubDate": "2021-06-26T14:14:06.000Z",
-    "pubDateYYMMDD": "2021-06-26"
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep9. 群晖 ipv6 阿里 DDNS 设置",
+    "link": "https://blog.lyc8503.site/2021/08/24/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/9-syno-ipv6-ddns/",
+    "summary": "\n    \n      <p><strong>初探 ipv6 &amp; 群晖 ipv6 DDNS 的设置.</strong></p>\n    \n    ",
+    "pubDate": "2021-08-24T01:43:33.000Z",
+    "pubDateYYMMDD": "2021-08-24"
   },
   {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "Reversi 黑白棋的前端界面与 AI 实现",
-    "link": "https://blog.orangex4.cool/post/reversi/",
-    "summary": "<h1 id=\"reversi-黑白棋的前端界面与-ai-实现\"   >\n          <a href=\"#reversi-黑白棋的前端界面与-ai-实现\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>Reversi 黑白棋的前端界面与 AI 实现</h1>\n      \n\n        <h2 id=\"1-黑白棋\"   >\n          <a href=\"#1-黑白棋\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>1. 黑白棋</h2>\n      \n<p><strong>黑白棋</strong>, 又叫翻转棋 (Reversi), 奥赛罗棋 (Othello), 苹果棋或正反棋 (Anti reversi). 黑白棋在西方和日本很流行. 游戏通过相互翻转对方的棋子, 最后以棋盘上谁的棋子多来判断胜负. 它的游戏规则简单, 因此上手很容易, 但是它的变化又非常复杂.</p>\n\n        <h3 id=\"在线网址-httpsreversiorangex4cool\"   >\n          <a href=\"#在线网址-httpsreversiorangex4cool\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>在线网址: https://reversi.orangex4.cool/</h3>",
-    "pubDate": "2021-06-13T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-06-13"
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep8. 记一次 ESXi 黑群晖失联排查",
+    "link": "https://blog.lyc8503.site/2021/08/23/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/8-syno-down-troubleshooting/",
+    "summary": "\n    \n      <p><strong>黑群晖不定时失联, 排查故障过程记录.</strong></p>\n    \n    ",
+    "pubDate": "2021-08-23T14:48:40.000Z",
+    "pubDateYYMMDD": "2021-08-23"
   },
   {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "k-means 聚类算法",
-    "link": "https://blog.orangex4.cool/post/kmean/",
-    "summary": "<h1 id=\"k-means-聚类算法\"   >\n          <a href=\"#k-means-聚类算法\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>k-means 聚类算法</h1>\n      \n\n        <h2 id=\"1-概念\"   >\n          <a href=\"#1-概念\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>1. 概念</h2>\n      \n<p>K-means 算法是一种无监督学习的聚类算法, 其基本思想是, 在几何空间上靠得越近的点就越相似.</p>\n\n        <h2 id=\"2-步骤\"   >\n          <a href=\"#2-步骤\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>2. 步骤</h2>\n      \n<ol>\n<li>将数据集归一化, 即将数据范围变为 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mo stretchy=\"false\">[</mo><mn>0</mn><mo separator=\"true\">,</mo><mn>1</mn><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[0,1]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord\">0</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">]</span></span></span></span>, 用于保证欧氏距离计算的准确性.</li>\n<li>选择 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.69444em;vertical-align:0em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span> 个初始点, 用这 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.69444em;vertical-align:0em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span> 个和样本维度相等的初始点作为聚类的中心点 (质点), 记作 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><msub><mi>a</mi><mi>i</mi></msub><mo separator=\"true\">,</mo><mi>i</mi><mo>=</mo><mn>1</mn><mo separator=\"true\">,</mo><mn>2</mn><mo separator=\"true\">,</mo><mo>⋯</mo><mtext> </mtext><mo separator=\"true\">,</mo><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">a_{i}, i=1,2,\\cdots,k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.85396em;vertical-align:-0.19444em;\"></span><span class=\"mord\"><span class=\"mord mathdefault\">a</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.31166399999999994em;\"><span style=\"top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord mathdefault\">i</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8888799999999999em;vertical-align:-0.19444em;\"></span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord\">2</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"minner\">⋯</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span>.</li>\n<li>对数据集中每一个样本 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><msub><mi>x</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">x_{i}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.58056em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathdefault\">x</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.31166399999999994em;\"><span style=\"top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> 计算它到这 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.69444em;vertical-align:0em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span> 个样本之间的距离, 并将其分到距离最近的中心点对应的类别中. 然后形成 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.69444em;vertical-align:0em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span> 个聚类 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><msub><mi>C</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">C_{i}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.83333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathdefault\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.31166399999999994em;\"><span style=\"top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>.</li>\n<li>对于每一个聚类 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><msub><mi>C</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">C_{i}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.83333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathdefault\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.31166399999999994em;\"><span style=\"top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>, 重新计算它的聚类中心 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mstyle scriptlevel=\"0\" displaystyle=\"true\"><msub><mi>a</mi><mi>i</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mi mathvariant=\"normal\">∣</mi><msub><mi>C</mi><mi>i</mi></msub><mi mathvariant=\"normal\">∣</mi></mrow></mfrac><munder><mo>∑</mo><mrow><mi>x</mi><mo>∈</mo><msub><mi>C</mi><mi>i</mi></msub></mrow></munder><mi>x</mi></mstyle></mrow><annotation encoding=\"application/x-tex\">\\displaystyle a_{i}=\\frac{1}{|C_{i}|}\\sum_{x\\in C_{i}}x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.58056em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathdefault\">a</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.31166399999999994em;\"><span style=\"top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:2.7158759999999997em;vertical-align:-1.394436em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.32144em;\"><span style=\"top:-2.314em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\">∣</span><span class=\"mord\"><span class=\"mord mathdefault\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.31166399999999994em;\"><span style=\"top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mord\">∣</span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.677em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.936em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mop op-limits\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.050005em;\"><span style=\"top:-1.855664em;margin-left:0em;\"><span class=\"pstrut\" style=\"height:3.05em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">x</span><span class=\"mrel mtight\">∈</span><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3280857142857143em;\"><span style=\"top:-2.357em;margin-left:-0.07153em;margin-right:0.07142857142857144em;\"><span class=\"pstrut\" style=\"height:2.5em;\"></span><span class=\"sizing reset-size3 size1 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.143em;\"><span></span></span></span></span></span></span></span></span></span><span style=\"top:-3.0500049999999996em;\"><span class=\"pstrut\" style=\"height:3.05em;\"></span><span><span class=\"mop op-symbol large-op\">∑</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.394436em;\"><span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord mathdefault\">x</span></span></span></span>, 即聚类里所有点的质心.</li>\n<li>重复第 3. 步骤, 直至这 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.69444em;vertical-align:0em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span> 个中心点稳定, 不再变化.</li>\n<li>这 <span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.69444em;vertical-align:0em;\"></span><span class=\"mord mathdefault\" style=\"margin-right:0.03148em;\">k</span></span></span></span> 个新中心点所对应的分类即无监督学习分类结果.</li>\n</ol>\n<p>类似过程如图所示.</p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://pic3.zhimg.com/80/v2-c7e92ede16a431e0439138c56bdc2e26_720w.jpg\"  alt=\"\" />\n      </p>",
-    "pubDate": "2021-06-09T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-06-09"
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep7. 硬件的一些更改",
+    "link": "https://blog.lyc8503.site/2021/08/23/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/7-hardware-upgrade-and-diy/",
+    "summary": "\n    \n      <p><strong>Hpe Gen10+ 有点令我失望… 后闲鱼出手改用自己组装的整机.</strong></p>\n    \n    ",
+    "pubDate": "2021-08-23T04:26:52.000Z",
+    "pubDateYYMMDD": "2021-08-23"
   },
   {
-    "name": "Typoverflow's Blog",
-    "xmlUrl": "https://blog.typoverflow.me/index.php/feed/",
-    "htmlUrl": "https://blog.typoverflow.me/",
-    "title": "树莓派 | 基于Python的树莓派魔镜",
-    "link": "https://blog.typoverflow.me/index.php/archives/29/",
-    "summary": "不要在考试周瞎折腾，会变得不幸福。树莓派有一个广为人知的项目，叫魔镜（MagicMirror）。大致想法是在一面原子镜（半透镜）后面垫上一块显示屏，连上树莓派，由树莓派输出视频信号，从而能在原本...",
-    "pubDate": "2021-06-08T13:40:00.000Z",
-    "pubDateYYMMDD": "2021-06-08"
-  },
-  {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "kNN 近邻分类算法及简单的 Python 实现",
-    "link": "https://blog.orangex4.cool/post/knn/",
-    "summary": "<h1 id=\"knn-近邻分类算法及简单的-python-实现\"   >\n          <a href=\"#knn-近邻分类算法及简单的-python-实现\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>kNN 近邻分类算法及简单的 Python 实现</h1>\n      \n\n        <h2 id=\"1-概念\"   >\n          <a href=\"#1-概念\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>1. 概念</h2>\n      \n<p><strong>kNN 算法</strong>是一种分类和回归算法, 这里我们讨论 kNN 算法在<strong>分类问题</strong>中的应用.</p>\n<p>简而言之, kNN 算法, 即给定一个<strong>含分类标记训练数据集 (training data)</strong>, 对于一个新的未分类的新<strong>测试样本 (testing sample)</strong>, 找到和这个测试样本<strong>最邻近的 k 个训练样本 (training samples)</strong>, 则我们将这 k 个训练样本中<strong>出现次数最多的类别</strong>看作是这个<strong>新测试样本的类别</strong>, 这就完成了我们的分类问题.</p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://pic3.zhimg.com/80/v2-da8fdace2b9c450b1f7a415843aa2e72_720w.jpg\"  alt=\"\" />\n      </p>",
-    "pubDate": "2021-06-05T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-06-05"
-  },
-  {
-    "name": "Typoverflow's Blog",
-    "xmlUrl": "https://blog.typoverflow.me/index.php/feed/",
-    "htmlUrl": "https://blog.typoverflow.me/",
-    "title": "从最大熵原理看ML和RL",
-    "link": "https://blog.typoverflow.me/index.php/archives/15/",
-    "summary": "一个经常被问的问题，为什么Logistic回归要使用Sigmoid函数？最大熵原理 (ME)在强化学习领域，有一个比较SOTA的算法叫做SAC（Soft Actor-critic），其核心思想就...",
-    "pubDate": "2021-05-31T15:09:00.000Z",
-    "pubDateYYMMDD": "2021-05-31"
-  },
-  {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "PCA 主成分分析与数据降维",
-    "link": "https://blog.orangex4.cool/post/pca/",
-    "summary": "<h1 id=\"pca-主成分分析与数据降维\"   >\n          <a href=\"#pca-主成分分析与数据降维\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>PCA 主成分分析与数据降维</h1>\n      \n\n        <h2 id=\"简介\"   >\n          <a href=\"#简介\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>简介</h2>\n      \n<p><strong>PCA (Principal Component Analysis) 主成分分析</strong>是一种重要的数据分析方式, 常常用于高维数据降为低维数据.</p>\n<p>PCA 可以用两种方式进行数学推导, 分别称为<strong>最大可分型</strong>和<strong>最近重构型</strong>, 前者基于基变换之后的方差最大, 后者基于点到划分平面的距离最小. 在这里, 我们使用最大可分型的方式进行数学推导.</p>\n<p>本文大部分数学推导基于<span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://zhuanlan.zhihu.com/p/77151308\" >【机器学习】降维——PCA —— 知乎@阿泽</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span>, 但是做了更为完整易懂的解释, 并且附上了以 <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data\" >iris 数据集 (鸢尾花卉数据集)</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span> 为案例的相应的 python 代码实现.</p>",
-    "pubDate": "2021-05-22T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-05-22"
-  },
-  {
-    "name": "Antares's Blog",
-    "xmlUrl": "https://chr.fan/feed",
-    "htmlUrl": "https://chr.fan",
-    "title": "Padavan路由器搭建v2ray服务",
-    "link": "https://chr.fan/padavan-v2ray/",
-    "summary": "<div><img width=\"300\" height=\"212\" src=\"https://chr.fan/wp-content/uploads/2021/05/10-300x212.png\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/10-300x212.png 300w, https://chr.fan/wp-content/uploads/2021/05/10-768x543.png 768w, https://chr.fan/wp-content/uploads/2021/05/10.png 992w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>因为我的所有设备上默认搜索引擎都是Google，在设备上（尤其是手机）开关一些魔法软件会比较麻烦，而且耗电。 所以为什么不把这项繁 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/padavan-v2ray/\">Padavan路由器搭建v2ray服务</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
-    "pubDate": "2021-05-11T12:51:18.000Z",
-    "pubDateYYMMDD": "2021-05-11"
-  },
-  {
-    "name": "Antares's Blog",
-    "xmlUrl": "https://chr.fan/feed",
-    "htmlUrl": "https://chr.fan",
-    "title": "Nginx+MariaDB+PHP+WordPress搭建个人网站",
-    "link": "https://chr.fan/website-set-up/",
-    "summary": "<div><img width=\"300\" height=\"212\" src=\"https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-300x212.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-300x212.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-1024x724.jpg 1024w, https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628-768x543.jpg 768w, https://chr.fan/wp-content/uploads/2021/05/illust_42947917_20171214_163628.jpg 1228w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>建站的教程网上已经一抓一大把了，所以这篇文章并没有什么参考价值而且我并不懂什么Nginx和PHP，仅仅是作为个人存档用，以防万一之 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/website-set-up/\">Nginx+MariaDB+PHP+WordPress搭建个人网站</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
-    "pubDate": "2021-05-10T09:05:50.000Z",
-    "pubDateYYMMDD": "2021-05-10"
-  },
-  {
-    "name": "Typoverflow's Blog",
-    "xmlUrl": "https://blog.typoverflow.me/index.php/feed/",
-    "htmlUrl": "https://blog.typoverflow.me/",
-    "title": "机器学习中的114514种散度和度量",
-    "link": "https://blog.typoverflow.me/index.php/archives/17/",
-    "summary": "KL散度定义$$D_{\\text{KL}}(p\\|q) = -\\int p(x)\\log\\frac{q(x)}{p(x)}\\mathrm{d}x$$$D_{\\text{KL}}(p\\|q)\\ge...",
-    "pubDate": "2021-05-09T08:55:00.000Z",
-    "pubDateYYMMDD": "2021-05-09"
-  },
-  {
-    "name": "Antares's Blog",
-    "xmlUrl": "https://chr.fan/feed",
-    "htmlUrl": "https://chr.fan",
-    "title": "Hello world!",
-    "link": "https://chr.fan/hello-world/",
-    "summary": "<div><img width=\"300\" height=\"279\" src=\"https://chr.fan/wp-content/uploads/2021/05/illust_20959870_20210421_011254-300x279.jpg\" class=\"attachment-medium size-medium wp-post-image\" alt=\"\" loading=\"lazy\" style=\"margin-bottom: 15px;\" srcset=\"https://chr.fan/wp-content/uploads/2021/05/illust_20959870_20210421_011254-300x279.jpg 300w, https://chr.fan/wp-content/uploads/2021/05/illust_20959870_20210421_011254.jpg 639w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>终于在今天把一直以来想要搭的个人网站搭起来了。因为完全不懂php和nginx，搭的时候遇到了一些小小的麻烦，不过最后也都一个个解决 ...</p>\n<p>The post <a rel=\"nofollow\" href=\"https://chr.fan/hello-world/\">Hello world!</a> appeared first on <a rel=\"nofollow\" href=\"https://chr.fan\">α-Lyrae</a>.</p>\n",
-    "pubDate": "2021-05-04T18:39:15.000Z",
-    "pubDateYYMMDD": "2021-05-04"
-  },
-  {
-    "name": "Idealclover's Blog",
-    "xmlUrl": "https://idealclover.top/feed",
-    "htmlUrl": "https://idealclover.top/",
-    "title": "2020年年终总结：致即将22岁的自己",
-    "link": "https://idealclover.top/archives/627/",
-    "summary": "说实话，我一直没想好该如何回答2020。从10月写完上篇博客开始，其实就一直在想年终总结该怎么写。但写了删删了写，一直拖着，拖到了连农历的新年都已经过完了，拖到了发QQ、发邮件催更我的读者都放弃...",
-    "pubDate": "2021-05-01T12:30:00.000Z",
-    "pubDateYYMMDD": "2021-05-01"
-  },
-  {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "在 VSCode 中用 Markdown 做「数字化」学习笔记",
-    "link": "https://blog.orangex4.cool/post/notes-in-markdown/",
-    "summary": "<h1 id=\"教程向-在-vscode-中用-markdown-做数字化学习笔记\"   >\n          <a href=\"#教程向-在-vscode-中用-markdown-做数字化学习笔记\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>教程向: 在 VSCode 中用 Markdown 做「数字化」学习笔记</h1>\n      \n<!-- https://zhuanlan.zhihu.com/p/366596107 -->\n<p><strong>VSCode</strong> 配上 <strong>Markdown</strong> 语言, 就能写出酷炫, 便捷, 且适应互联网的「数字化」学习笔记.</p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://pic4.zhimg.com/80/v2-9e0a1762c0f90f507c3fb5cd6a34878b_720w.png\"  alt=\"\" />\n      </p>\n<p>这个教程是我这段时间踩过各种各样的坑之后, 总结 VSCode 做学习笔记的最佳实践.</p>\n<p><strong>如果你对在 VSCode 中做笔记有什么好的主意, 欢迎留下你的意见, 我会第一时间在教程中加入!</strong></p>",
-    "pubDate": "2021-04-20T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-04-20"
-  },
-  {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "VSCode 用来记笔记究竟能有多酷炫?",
-    "link": "https://blog.orangex4.cool/post/notes-in-vscode/",
-    "summary": "<h1 id=\"vscode-用来记笔记究竟能有多酷炫\"   >\n          <a href=\"#vscode-用来记笔记究竟能有多酷炫\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>VSCode 用来记笔记究竟能有多酷炫?</h1>\n      \n<!-- #! https://zhuanlan.zhihu.com/p/366596949 -->\n<p>很少有人发现, <strong>VSCode</strong> 配上 <strong>Markdown</strong> 语言, 就能写出酷炫, 便捷, 且适应互联网的「数字化」学习笔记.</p>\n<p>我尝试用 VSCode 写了一段时间的笔记, 非常顺手, 而且管理起来非常方便, 我做的笔记就像这样:</p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://pic4.zhimg.com/80/v2-9e0a1762c0f90f507c3fb5cd6a34878b_720w.png\"  alt=\"\" />\n      </p>\n<p>使用 VSCode 做的「数字化」笔记, 你可以很容易的看出和其他的笔记软件完全不一样, 简直是笔记界的一股泥石流 (不是).</p>\n<p>事实上, 笔记要做成这样并不难, 只要尝试写几天, 就能轻松上手!</p>\n<p>下面是用 VSCode 记笔记的优势!</p>",
-    "pubDate": "2021-04-19T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-04-19"
-  },
-  {
-    "name": "OrangeX4's Blog",
-    "xmlUrl": "https://orangex4.cool/atom.xml",
-    "htmlUrl": "https://orangex4.cool/",
-    "title": "GitNotes - 一个在线的 Git 托管笔记浏览应用",
-    "link": "https://blog.orangex4.cool/post/gitnotes-a-notes-views-for-git/",
-    "summary": "<h1 id=\"什么是-gitnotes\"   >\n          <a href=\"#什么是-gitnotes\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>什么是 GitNotes?</h1>\n      \n<p>这是一个我开发的笔记浏览应用, 用于浏览以 <strong>Markdown</strong> 书写的, 存放在 <strong>GitLab 或 GitHub</strong> 上的笔记.</p>\n<p>优点: <strong>数学公式支持和移动端适配</strong>.</p>\n<p>笔记 Git Repo 参考: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://github.com/OrangeX4/NJUAI-Notes\" >NJUAI-Notes</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></p>\n<p>对应页面: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://notes.orangex4.cool/?git=gitlab\" >OrangeX’s Notes</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></p>\n\n        <h2 id=\"demo\"   >\n          <a href=\"#demo\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>Demo</h2>\n      \n\n        <h3 id=\"orangex4s-notes\"   >\n          <a href=\"#orangex4s-notes\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>OrangeX4’s Notes</h3>\n      \n<p>你可以<strong>直接使用</strong>这个网址查看你要查看的笔记 Repo, 并不需要挂载你自己的 GitNotes.</p>\n\n        <h2 id=\"原理\"   >\n          <a href=\"#原理\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>原理</h2>\n      \n<ul>\n<li>界面: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://zh-hans.reactjs.org/\" >React</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span> + <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://material-ui.com/zh/\" >Material UI</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n<li>API: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://docs.github.com/en/rest\" >GitHub API</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span> + <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://docs.gitlab.com/ee/api/\" >GitLab API</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n<li>Markdown 支持: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://github.com/markdown-it/markdown-it\" >Markdown-It</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n<li>数学公式支持: <span class=\"exturl\"><a class=\"exturl__link\"   href=\"https://katex.org/\" >Katex</a><span class=\"exturl__icon\"><i class=\"fas fa-external-link-alt\"></i></span></span></li>\n</ul>\n\n        <h2 id=\"界面\"   >\n          <a href=\"#界面\" class=\"heading-link\"><i class=\"fas fa-link\"></i></a>界面</h2>\n      \n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://gitee.com/orangex4/picgo/raw/master/images/20210927180422.png\"  alt=\"\" />\n      </p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://gitee.com/orangex4/picgo/raw/master/images/20210927180448.png\"  alt=\"\" />\n      </p>\n<p>\n        <img   class=\"lazyload lazyload-gif\"\n          src=\"/images/loading.svg\" data-src=\"https://gitee.com/orangex4/picgo/raw/master/images/20210927180516.png\"  alt=\"\" />\n      </p>",
-    "pubDate": "2021-04-15T16:00:00.000Z",
-    "pubDateYYMMDD": "2021-04-15"
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep6. ESXi 黑群晖设置时的一些小技巧和踩的坑",
+    "link": "https://blog.lyc8503.site/2021/08/13/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/6-software-implementation/",
+    "summary": "\n    \n      <p><strong>如题.</strong> 主要是归类一些我参考的教程.</p>\n    \n    ",
+    "pubDate": "2021-08-13T02:39:32.000Z",
+    "pubDateYYMMDD": "2021-08-13"
   }
 ]

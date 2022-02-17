@@ -33,5 +33,10 @@
     "title": "Antares's Blog",
     "xmlUrl": "https://chr.fan/feed",
     "htmlUrl": "https://chr.fan"
+  },
+  {
+    "title": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/"
   }
 ]
