@@ -1,25 +1,5 @@
 [
   {
-    "name": "lyc8503's Blog",
-    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
-    "htmlUrl": "https://blog.lyc8503.site/",
-    "title": "Hello World on my Hexo blog",
-    "link": "https://blog.lyc8503.site/2098/12/31/hello-world/",
-    "summary": "\n    \n      \n      \n        <p>前段时间又调整了我的 Orange Pi 架构, 因此 Wordpress 上的博客又咕咕咕了好久没有写.<br>到现在还忙于学业上的, 亦或是其他程序上的琐事没能将服务器的应用全面 docker 化, 博客也就没有部署. 现在尝试使用 Hexo + Github + Ne\n      \n    \n    ",
-    "pubDate": "2098-12-31T16:00:00.000Z",
-    "pubDateYYMMDD": "2098-12-31"
-  },
-  {
-    "name": "lyc8503's Blog",
-    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
-    "htmlUrl": "https://blog.lyc8503.site/",
-    "title": "AIO Ep11. 升级 OpenWRT 至正式版系统",
-    "link": "https://blog.lyc8503.site/2022/02/24/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/11-upgrade-openwrt/",
-    "summary": "\n    \n      <p>前几天想在路由器上安装一些新软件包, 发现 opkg 新安装的大部分软件包很多出现类似 <code>__select_time64: symbol not found</code> 的报错无法正常运行.</p>\n<p>Google 搜索后发现我上次安装的 OpenWRT 是基于 snapshot 版本的, 内核中的库的接口发生了改变. </p>\n<blockquote>\n<p>The musl version upgrade in September changed the internal time handling from 32bit to 64bit even in the 32bit targets (like mipsel24).</p>\n</blockquote>\n<p>正好路由器使用上次的固件也出现过不稳定现象, 所以也借此机会回归无魔改的官方固件.</p>\n    \n    ",
-    "pubDate": "2022-02-24T14:22:08.000Z",
-    "pubDateYYMMDD": "2022-02-24"
-  },
-  {
     "name": "OrangeX4's Blog",
     "xmlUrl": "https://orangex4.cool/atom.xml",
     "htmlUrl": "https://orangex4.cool/",
@@ -398,5 +378,25 @@
     "summary": "\n    \n      <p><strong>如题.</strong> 主要是归类一些我参考的教程.</p>\n    \n    ",
     "pubDate": "2021-08-13T02:39:32.000Z",
     "pubDateYYMMDD": "2021-08-13"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "AIO Ep5. 我的服务器的软件结构",
+    "link": "https://blog.lyc8503.site/2021/08/12/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/5-software-configuration/",
+    "summary": "\n    \n      <p><strong>基础的 ESXi 已经装好了, 先来概括一下软件上的安排.</strong></p>\n    \n    ",
+    "pubDate": "2021-08-12T16:09:47.000Z",
+    "pubDateYYMMDD": "2021-08-12"
+  },
+  {
+    "name": "lyc8503's Blog",
+    "xmlUrl": "https://blog.lyc8503.site/atom.xml",
+    "htmlUrl": "https://blog.lyc8503.site/",
+    "title": "Hexo 部署到 OSS 国内访问加速",
+    "link": "https://blog.lyc8503.site/2021/08/12/%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6=)/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4&%E9%85%8D%E7%BD%AEder%E6%97%A5%E5%B8%B8/hexo-on-oss/",
+    "summary": "\n    \n      <p>博客本来使用了 Netlify + 国内阿里 CDN 加速.</p>\n<p>但没想到… Netlify 的源站实在是太慢了. 慢到返回一个 304 都能等到 504 Gateway Time-out.</p>\n<p>既然都已经备案了, 还是要想办法让国内访问快一点.</p>\n<p>所以打算利用 Github Actions 将网站再部署到 OSS 上, 再用 CDN 加速.</p>\n<p>同时由于国内评论发表需要审核, 使用 Valine (Valine-Admin) 替换了 Gitalk, 支持手动审核.</p>\n    \n    ",
+    "pubDate": "2021-08-12T15:56:44.000Z",
+    "pubDateYYMMDD": "2021-08-12"
   }
 ]

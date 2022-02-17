@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[NJU-LUG Blogroll]]></title><description><![CDATA[南京大学 Linux User Group 收集同学和校友们的 Blog]]></description><link>https://blogroll.njulug.org/</link><image><url>https://blogroll.njulug.org/assets/logo.56c0d74c.png</url><title>NJU-LUG Blogroll</title><link>https://blogroll.njulug.org/</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 17 Feb 2022 06:36:17 GMT</lastBuildDate><atom:link href="https://blogroll.njulug.org/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 31 Dec 2098 16:00:00 GMT</pubDate><copyright><![CDATA[2022 NJU-LUG]]></copyright><language><![CDATA[cn]]></language><managingEditor><![CDATA[NJU-LUG]]></managingEditor><webMaster><![CDATA[NJU-LUG]]></webMaster><docs>https://blogroll.njulug.org/</docs><ttl>60</ttl><item><title><![CDATA[Hello World on my Hexo blog]]></title><description><![CDATA[
-    
-      
-      
-        <p>前段时间又调整了我的 Orange Pi 架构, 因此 Wordpress 上的博客又咕咕咕了好久没有写.<br>到现在还忙于学业上的, 亦或是其他程序上的琐事没能将服务器的应用全面 docker 化, 博客也就没有部署. 现在尝试使用 Hexo + Github + Ne
-      
-    
-    ]]></description><link>https://blog.lyc8503.site/2098/12/31/hello-world/</link><guid isPermaLink="true">https://blog.lyc8503.site/2098/12/31/hello-world/</guid><dc:creator><![CDATA[lyc8503's Blog]]></dc:creator><pubDate>Wed, 31 Dec 2098 16:00:00 GMT</pubDate></item><item><title><![CDATA[AIO Ep11. 升级 OpenWRT 至正式版系统]]></title><description><![CDATA[
-    
-      <p>前几天想在路由器上安装一些新软件包, 发现 opkg 新安装的大部分软件包很多出现类似 <code>__select_time64: symbol not found</code> 的报错无法正常运行.</p>
-<p>Google 搜索后发现我上次安装的 OpenWRT 是基于 snapshot 版本的, 内核中的库的接口发生了改变. </p>
-<blockquote>
-<p>The musl version upgrade in September changed the internal time handling from 32bit to 64bit even in the 32bit targets (like mipsel24).</p>
-</blockquote>
-<p>正好路由器使用上次的固件也出现过不稳定现象, 所以也借此机会回归无魔改的官方固件.</p>
-    
-    ]]></description><link>https://blog.lyc8503.site/2022/02/24/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/11-upgrade-openwrt/</link><guid isPermaLink="true">https://blog.lyc8503.site/2022/02/24/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/11-upgrade-openwrt/</guid><dc:creator><![CDATA[lyc8503's Blog]]></dc:creator><pubDate>Thu, 24 Feb 2022 14:22:08 GMT</pubDate></item><item><title><![CDATA[为 Hexo 博客中的 Markdown 添加卡片式链接支持]]></title><description><![CDATA[<h1 id="为-hexo-博客中的-markdown-添加卡片式链接支持"   >
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[NJU-LUG Blogroll]]></title><description><![CDATA[南京大学 Linux User Group 收集同学和校友们的 Blog]]></description><link>https://blogroll.njulug.org/</link><image><url>https://blogroll.njulug.org/assets/logo.56c0d74c.png</url><title>NJU-LUG Blogroll</title><link>https://blogroll.njulug.org/</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 17 Feb 2022 06:49:52 GMT</lastBuildDate><atom:link href="https://blogroll.njulug.org/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 31 Dec 2098 16:00:00 GMT</pubDate><copyright><![CDATA[2022 NJU-LUG]]></copyright><language><![CDATA[cn]]></language><managingEditor><![CDATA[NJU-LUG]]></managingEditor><webMaster><![CDATA[NJU-LUG]]></webMaster><docs>https://blogroll.njulug.org/</docs><ttl>60</ttl><item><title><![CDATA[为 Hexo 博客中的 Markdown 添加卡片式链接支持]]></title><description><![CDATA[<h1 id="为-hexo-博客中的-markdown-添加卡片式链接支持"   >
           <a href="#为-hexo-博客中的-markdown-添加卡片式链接支持" class="heading-link"><i class="fas fa-link"></i></a>为 Hexo 博客中的 Markdown 添加卡片式链接支持</h1>
       
 <p>我写了一个 <span class="exturl"><a class="exturl__link"   href="https://github.com/OrangeX4/hexo-link-card" >Hexo 插件</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>，可以使用现有 Markdown 语法将链接转换为卡片式链接（网页卡片）.</p>
@@ -211,4 +195,16 @@
     
       <p><strong>如题.</strong> 主要是归类一些我参考的教程.</p>
     
-    ]]></description><link>https://blog.lyc8503.site/2021/08/13/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/6-software-implementation/</link><guid isPermaLink="true">https://blog.lyc8503.site/2021/08/13/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/6-software-implementation/</guid><dc:creator><![CDATA[lyc8503's Blog]]></dc:creator><pubDate>Fri, 13 Aug 2021 02:39:32 GMT</pubDate></item></channel></rss>
+    ]]></description><link>https://blog.lyc8503.site/2021/08/13/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/6-software-implementation/</link><guid isPermaLink="true">https://blog.lyc8503.site/2021/08/13/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/6-software-implementation/</guid><dc:creator><![CDATA[lyc8503's Blog]]></dc:creator><pubDate>Fri, 13 Aug 2021 02:39:32 GMT</pubDate></item><item><title><![CDATA[AIO Ep5. 我的服务器的软件结构]]></title><description><![CDATA[
+    
+      <p><strong>基础的 ESXi 已经装好了, 先来概括一下软件上的安排.</strong></p>
+    
+    ]]></description><link>https://blog.lyc8503.site/2021/08/12/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/5-software-configuration/</link><guid isPermaLink="true">https://blog.lyc8503.site/2021/08/12/%E4%B8%93%E9%A2%98%E5%90%91%E7%A0%94%E7%A9%B6/AllInOne%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/5-software-configuration/</guid><dc:creator><![CDATA[lyc8503's Blog]]></dc:creator><pubDate>Thu, 12 Aug 2021 16:09:47 GMT</pubDate></item><item><title><![CDATA[Hexo 部署到 OSS 国内访问加速]]></title><description><![CDATA[
+    
+      <p>博客本来使用了 Netlify + 国内阿里 CDN 加速.</p>
+<p>但没想到… Netlify 的源站实在是太慢了. 慢到返回一个 304 都能等到 504 Gateway Time-out.</p>
+<p>既然都已经备案了, 还是要想办法让国内访问快一点.</p>
+<p>所以打算利用 Github Actions 将网站再部署到 OSS 上, 再用 CDN 加速.</p>
+<p>同时由于国内评论发表需要审核, 使用 Valine (Valine-Admin) 替换了 Gitalk, 支持手动审核.</p>
+    
+    ]]></description><link>https://blog.lyc8503.site/2021/08/12/%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6=)/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4&amp;%E9%85%8D%E7%BD%AEder%E6%97%A5%E5%B8%B8/hexo-on-oss/</link><guid isPermaLink="true">https://blog.lyc8503.site/2021/08/12/%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6=)/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4&amp;%E9%85%8D%E7%BD%AEder%E6%97%A5%E5%B8%B8/hexo-on-oss/</guid><dc:creator><![CDATA[lyc8503's Blog]]></dc:creator><pubDate>Thu, 12 Aug 2021 15:56:44 GMT</pubDate></item></channel></rss>
