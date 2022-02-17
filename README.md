@@ -54,6 +54,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Mexii's Blog | https://blog.mexii.one/atom.xml | https://blog.mexii.one/ |
 | LadderOperator's Blog | https://ladderoperator.top/index.xml | https://ladderoperator.top |
 | Antares's Blog | https://chr.fan/feed | https://chr.fan |
+| lyc8503's Blog | https://blog.lyc8503.site/atom.xml | https://blog.lyc8503.site/ |
 
 
 ## OPML
