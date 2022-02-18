@@ -80,7 +80,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
   dataJson.sort((itemA, itemB) => itemA.pubDate < itemB.pubDate ? 1 : -1);
   // 默认为保存前 n 项的数据, 并保证不超过当前时间
   const curDate = new Date();
-  const dataJsonSliced = dataJson.filter((item) => item.pubDate < curDate).slice(0, Math.min(maxDataJsonItemsNumber, dataJson.length));
+  const dataJsonSliced = dataJson.filter((item) => item.pubDate <= curDate).slice(0, Math.min(maxDataJsonItemsNumber, dataJson.length));
   fs.writeFileSync(dataJsonPath, JSON.stringify(dataJsonSliced, null, 2), { encoding: 'utf-8' });
   
   // 生成 RSS 文件
