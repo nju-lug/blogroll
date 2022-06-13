@@ -60,6 +60,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | 南雍随笔 | https://ydjsir.com.cn/atom.xml | https://ydjsir.com.cn/ |
 | Kevinpro's Blog | --- | https://www.yuque.com/kevinpro |
 | Domon | https://www.domon.cn/rss/ | https://www.domon.cn |
+| 极东魔术昼寝结社 | --- | www.bilibilianime.com |
 
 ## OPML
 
