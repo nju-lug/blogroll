@@ -62,6 +62,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Domon | https://www.domon.cn/rss/ | https://www.domon.cn |
 | 极东魔术昼寝结社 | https://www.jaoushingan.com/atom.xml | https://www.jaoushingan.com |
 | Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
+| Persvadisto's Blog | --- | https://persvadisto.github.io/ |
 
 ## OPML
 
