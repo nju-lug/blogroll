@@ -63,6 +63,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | 极东魔术昼寝结社 | https://www.jaoushingan.com/atom.xml | https://www.jaoushingan.com |
 | Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
 | Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
+| A7R7's Notes | https://a7r7.me/index.xml | https://a7r7.me |
 
 ## OPML
 
