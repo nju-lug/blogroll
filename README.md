@@ -54,7 +54,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Mexii's Blog | https://blog.mexii.dev/atom.xml | https://blog.mexii.dev/ |
 | LadderOperator's Blog | https://ladderoperator.top/index.xml | https://ladderoperator.top |
 | Antares's Blog | https://chr.fan/feed | https://chr.fan |
-| lyc8503's Blog | https://blog.lyc8503.site/atom.xml | https://blog.lyc8503.site/ |
+| lyc8503's Blog | https://blog.lyc8503.net/atom.xml | https://blog.lyc8503.net/ |
 | YeungYeah 的乱写地 | https://scottyeung.top/atom.xml | https://scottyeung.top/ |
 | yaoge123's Blog | https://www.yaoge123.com/blog/feed | https://www.yaoge123.com/ |
 | 南雍随笔 | https://ydjsir.com.cn/atom.xml | https://ydjsir.com.cn/ |
