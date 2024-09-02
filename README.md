@@ -47,7 +47,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 
 | Name | RSS | HTML |
 | --   | --  | --   |
-| OrangeX4's Blog | https://orangex4.cool/atom.xml | https://orangex4.cool/ |
+| OrangeX4's Blog | https://blog.orangex4.workers.dev/atom.xml | https://blog.orangex4.workers.dev/ |
 | Idealclover's Blog | https://idealclover.top/feed | https://idealclover.top/ |
 | Typoverflow's Blog | https://blog.typoverflow.me/index.php/feed/ | https://blog.typoverflow.me/ |
 | Cmj's Blog | https://blog.caomingjun.com/atom.xml | https://blog.caomingjun.com/ |
