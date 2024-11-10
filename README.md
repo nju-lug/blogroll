@@ -20,6 +20,10 @@
 
 https://blogroll.njulug.org/rss.xml
 
+使用该RSS订阅的Telegram频道：
+
+https://t.me/NJULUG_Blogroll
+
 
 ## FAQ
 
