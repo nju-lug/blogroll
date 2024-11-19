@@ -14,18 +14,18 @@ jobs:
           - 16.x
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           # 令 GitHub 在 git clone 和 git checkout 后「忘记」使用的 credentials。
           # 如果之后需要以另外的身份（如你的 GitHub Bot）执行 git push 操作时（如部署到 GitHub Pages），必须设置为 false。
           persist-credentials: false
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       # 缓存 node_modules，缓存机制参见 GitHub 文档：https://help.github.com/en/actions/configuring-and-managing-workflows/caching-dependencies-to-speed-up-workflows
       - name: Cache node_modules
-        uses: actions/cache@v1 # 使用 GitHub 官方的缓存 Action。
+        uses: actions/cache@v4 # 使用 GitHub 官方的缓存 Action。
         env:
           cache-name: blogroll-node-modules
         with:
@@ -33,7 +33,7 @@ jobs:
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }} # 使用 package-lock.json 的 Hash 作为缓存的 key。也可以使用 package.json 代替
       # Wrangler 在构建时会在 workers-site 目录下执行 npm i，因此也要缓存这里的 node_modules
       - name: Cache workers-site/node_modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         env:
           cache-name: workers-site-node-modules
         with:
