@@ -10,6 +10,7 @@
   "dependencies": {
     "rss": "^1.2.2",
     "rss-parser": "^3.12.0",
+    "seatable-api": "^1.0.42",
     "vue": "^3.2.29"
   },
   "devDependencies": {

@@ -41,6 +41,8 @@ jobs:
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('workers-site/package-lock.json') }}
       - run: npm i # 执行 Blogroll 的依赖安装
       - run: npm run gen # 相当于 node index.js，生成 opml.xml，opml.json 和 data.json
+        env:
+          SEATABLE_API_TOKEN: ${{ secrets.SEATABLE_API_TOKEN }}
       - run: npm run build
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
