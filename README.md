@@ -53,7 +53,6 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | --   | --  | --   |
 | OrangeX4's Blog | https://blog.orangex4.workers.dev/atom.xml | https://blog.orangex4.workers.dev/ |
 | Idealclover's Blog | https://idealclover.top/feed | https://idealclover.top/ |
-| Typoverflow's Blog | https://blog.typoverflow.me/index.php/feed/ | https://blog.typoverflow.me/ |
 | Cmj's Blog | https://blog.caomingjun.com/atom.xml | https://blog.caomingjun.com/ |
 | Mexii's Blog | https://blog.mexii.dev/atom.xml | https://blog.mexii.dev/ |
 | LadderOperator's Blog | https://ladderoperator.top/index.xml | https://ladderoperator.top |
@@ -64,12 +63,10 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | 南雍随笔 | https://ydjsir.com.cn/atom.xml | https://ydjsir.com.cn/ |
 | Kevinpro's Blog | --- | https://www.yuque.com/kevinpro |
 | Domon | https://www.domon.cn/rss/ | https://www.domon.cn |
-| 极东魔术昼寝结社 | https://www.jaoushingan.com/atom.xml | https://www.jaoushingan.com |
+| 极东魔术昼寝结社 | https://blog.jaoushingan.com/atom.xml | https://blog.jaoushingan.com |
 | Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
 | Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
-| A7R7's Notes | https://a7r7.me/index.xml | https://a7r7.me |
-| StrnasnX's Blog | https://stringmax.xyz/atom.xml | https://stringmax.xyz/ |
-| Yukino's Blog | https://02hyc.github.io/Blog.github.io/atom.xml | https://02hyc.github.io/Blog.github.io/ |
+| Yukino's Blog | https://02hyc.github.io/Blog/atom.xml | https://02hyc.github.io/Blog/ |
 | Do1e | https://www.do1e.cn/feed | https://www.do1e.cn |
 
 ## OPML
