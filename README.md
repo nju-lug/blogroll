@@ -11,7 +11,7 @@
 
 聚合页面使用 Vue 框架编写，每天定时 0 点和 12 点，会通过 GitHub Action 自动集成和部署到 Cloudflare 上。
 
-聚合页面由 [@OrangeX4](https://github.com/OrangeX4) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issues。
+聚合页面由 [@OrangeX4](https://github.com/OrangeX4) 和 [@Do1e](https://github.com/Do1e) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issues。
 
 
 ## 聚合 RSS 订阅
@@ -33,7 +33,7 @@ https://t.me/NJULUG_Blogroll
 
 > 有些 Blog 太久没更新或失效了，怎么办？
 
-提 Pull Request 将其删除，同时我们也会通过 Github Action 的自动更新中的 Log 来判断是否失效。
+联系[@Do1e i@do1e.cn](mailto:i@do1e.cn)进行删除，同时我们也会通过 Github Action 的自动更新中的 Log 来判断是否失效。
 
 
 ## 添加/编辑方式
