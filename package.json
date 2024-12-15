@@ -1,8 +1,9 @@
 {
   "name": "blogroll",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "dev": "cd web && vite",
+    "update": "node update_files.js",
     "gen": "node index.js",
     "build": "cd web && vite build",
     "preview": "cd web && vite preview --port 5050"

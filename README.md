@@ -9,7 +9,7 @@
 
 欢迎在线浏览：https://blogroll.njulug.org/
 
-聚合页面使用 Vue 框架编写，在每次 Push 之后，与每天定时 0 点和 12 点的时候，均会通过 GitHub Action 自动集成和部署到 Cloudflare 上。
+聚合页面使用 Vue 框架编写，每天定时 0 点和 12 点，会通过 GitHub Action 自动集成和部署到 Cloudflare 上。
 
 聚合页面由 [@OrangeX4](https://github.com/OrangeX4) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issues。
 
@@ -36,38 +36,18 @@ https://t.me/NJULUG_Blogroll
 提 Pull Request 将其删除，同时我们也会通过 Github Action 的自动更新中的 Log 来判断是否失效。
 
 
-## 添加方式
+## 添加/编辑方式
 
-先 Fork 这个项目，编辑这个 `README.md` 文件的内容，在 **表格最下面一行** 添加（也即按时间顺序），最后提交 Pull Request 进行更改。
+填写表单：[https://table.nju.edu.cn/dtable/forms/b7e232c1-b52b-43ad-8058-3400594cba5a/](https://table.nju.edu.cn/dtable/forms/b7e232c1-b52b-43ad-8058-3400594cba5a/)
 
-如果无 RSS 源，可以使用 `---` 代替，聚合页面将不会抓取。
+编辑表单：[https://table.nju.edu.cn/dtable/collection-tables/36161685-5d74-4d48-928f-b6b40174da28](https://table.nju.edu.cn/dtable/collection-tables/36161685-5d74-4d48-928f-b6b40174da28)。如果是之前在README中填写的，可重新[填写表单](https://table.nju.edu.cn/dtable/forms/b7e232c1-b52b-43ad-8058-3400594cba5a/)，保证`Name`字段一致即可。
 
-Pull Request 规范：标题为自己的名字，内容可以是对自己和博客的介绍。
-
-> 南大协同表格支持建设中...
-
+如果无 RSS 源，可以使用 `---` 代替，聚合页面将不会抓取，仅展示HTML链接。
 
 ## Lists
 
 | Name | RSS | HTML |
 | --   | --  | --   |
-| OrangeX4's Blog | https://blog.orangex4.workers.dev/atom.xml | https://blog.orangex4.workers.dev/ |
-| Idealclover's Blog | https://idealclover.top/feed | https://idealclover.top/ |
-| Cmj's Blog | https://blog.caomingjun.com/atom.xml | https://blog.caomingjun.com/ |
-| Mexii's Blog | https://blog.mexii.dev/atom.xml | https://blog.mexii.dev/ |
-| LadderOperator's Blog | https://ladderoperator.top/index.xml | https://ladderoperator.top |
-| Antares's Blog | https://chr.fan/feed | https://chr.fan |
-| lyc8503's Blog | https://blog.lyc8503.net/atom.xml | https://blog.lyc8503.net/ |
-| YeungYeah 的乱写地 | https://scottyeung.top/atom.xml | https://scottyeung.top/ |
-| yaoge123's Blog | https://www.yaoge123.com/blog/feed | https://www.yaoge123.com/ |
-| 南雍随笔 | https://ydjsir.com.cn/atom.xml | https://ydjsir.com.cn/ |
-| Kevinpro's Blog | --- | https://www.yuque.com/kevinpro |
-| Domon | https://www.domon.cn/rss/ | https://www.domon.cn |
-| 极东魔术昼寝结社 | https://blog.jaoushingan.com/atom.xml | https://blog.jaoushingan.com |
-| Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
-| Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
-| Yukino's Blog | https://02hyc.github.io/Blog/atom.xml | https://02hyc.github.io/Blog/ |
-| Do1e | https://www.do1e.cn/feed | https://www.do1e.cn |
 
 ## OPML
 
