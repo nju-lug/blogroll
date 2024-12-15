@@ -70,6 +70,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | A7R7's Notes | https://a7r7.me/index.xml | https://a7r7.me |
 | StrnasnX's Blog | https://stringmax.xyz/atom.xml | https://stringmax.xyz/ |
 | Yukino's Blog | https://02hyc.github.io/Blog.github.io/atom.xml | https://02hyc.github.io/Blog.github.io/ |
+| Do1e | https://www.do1e.cn/feed | https://www.do1e.cn |
 
 ## OPML
 
