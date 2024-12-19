@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         node-version:
-          - 16.x
+          - 23.x
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
           cache-name: blogroll-node-modules
         with:
           path: node_modules
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }} # 使用 package-lock.json 的 Hash 作为缓存的 key。也可以使用 package.json 代替
+          key: ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }} # 使用 package-lock.json 的 Hash 作为缓存的 key。也可以使用 package.json 代替
       # Wrangler 在构建时会在 workers-site 目录下执行 npm i，因此也要缓存这里的 node_modules
       - name: Cache workers-site/node_modules
         uses: actions/cache@v4
@@ -36,7 +36,7 @@ jobs:
           cache-name: workers-site-node-modules
         with:
           path: workers-site/node_modules
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('workers-site/package-lock.json') }}
+          key: ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-${{ hashFiles('workers-site/package-lock.json') }}
       - run: npm i # 执行 Blogroll 的依赖安装
       - run: npm run update # 相当于 node update_files.js，从 Seatable 更新数据到 README.md
         env:
