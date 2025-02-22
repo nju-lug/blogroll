@@ -64,7 +64,7 @@ https://t.me/NJULUG_Blogroll
 | 极东魔术昼寝结社 | https://blog.jaoushingan.com/atom.xml | https://blog.jaoushingan.com |
 | Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
 | Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
-| Yukino's Blog | https://02hyc.github.io/Blog/atom.xml | https://02hyc.github.io/Blog/ |
+| Yukino's Blog | https://02hyc.github.io/Blog/index.xml | https://02hyc.github.io/Blog/ |
 
 
 ## OPML
