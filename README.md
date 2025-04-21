@@ -65,6 +65,7 @@ https://t.me/NJULUG_Blogroll
 | Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
 | Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
 | Yukino's Blog | https://02hyc.github.io/Blog/index.xml | https://02hyc.github.io/Blog/ |
+| The 0x26A1 Bay | https://igns.top/index.xml | https://igns.top/ |
 
 
 ## OPML
