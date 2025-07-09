@@ -40,15 +40,6 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
 // 异步处理
 (async () => {
 
-  try {
-    // 获取服务器 IP 地址
-    const response = await fetch('https://ipapi.do1e.cn/get-ip');
-    const ipData = await response.json();
-    console.log(ipData);
-  } catch (err) {
-    console.log(err);
-  }
-
   // 用于存储各项数据
   const dataJson = [];
 
