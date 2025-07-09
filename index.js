@@ -12,6 +12,7 @@ const readmeMdPath = './README.md';
 const opmlJsonPath = './web/src/assets/opml.json';
 const dataJsonPath = './web/src/assets/data.json';
 const maxDataJsonItemsNumber = 40;  // 保存前四十项
+const maxSummaryLength = 400;       // 摘要最大长度
 const opmlXmlPath = './web/public/opml.xml';
 const rssXmlPath = './web/public/rss.xml';
 const opmlXmlContentOp = '<opml version="2.0">\n  <head>\n    <title>' + opmlXmlContentTitle + '</title>\n  </head>\n  <body>\n\n';
@@ -54,8 +55,12 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
       const feed = await parser.parseURL(lineJson.xmlUrl);
 
       // 数组合并
-      dataJson.push.apply(dataJson, feed.items.filter((item) => item.title && item.content && item.pubDate).map((item) => {
+      dataJson.push.apply(dataJson, feed.items.filter((item) => item.title && (item.content || item.summary) && item.pubDate).map((item) => {
         const pubDate = new Date(item.pubDate);
+        let summary = item.summary ? item.summary : item.content;
+        if (summary.length > maxSummaryLength) {
+          summary = summary.substring(0, maxSummaryLength) + '...';
+        }
         return {
           name: lineJson.title,
           xmlUrl: lineJson.xmlUrl,
