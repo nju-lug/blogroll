@@ -14,7 +14,7 @@ const readmeMdContent = fs.readFileSync(readmeMdPath, { encoding: 'utf-8' });
 // 解析 SeaTable 中的表格，转为 JSON
 async function parseSeaTableToJson() {
   const seatableBase = new Base({
-    server: "https://table.nju.edu.cn",
+    server: "https://tableproxy.do1e.cn",
     APIToken: seatableToken
   });
   // 解析错误类型：身份验证错误 / HTTP 错误 / 网络连接错误 / 其他
