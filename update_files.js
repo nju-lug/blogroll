@@ -45,30 +45,42 @@ async function parseSeaTableToJson() {
     console.error(msg);
   }
 
-  try {
-    await seatableBase.auth();
-  } catch (err) {
-    classifyAndLogError(err);
-    exit(1);
+  // 失败重试
+  async function retrySeaTableOperation(operation, operationName, maxRetries = 10) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        return await operation();
+      } catch (err) {
+        console.error(`${operationName} 第 ${attempt} 次尝试失败：`);
+        classifyAndLogError(err);
+
+        if (attempt === maxRetries) {
+          console.error(`${operationName} 已达到最大重试次数 (${maxRetries})，操作失败。`);
+          exit(1);
+        }
+
+        // 等待一段时间后重试，使用指数退避策略
+        const waitTime = Math.min(1000 * Math.pow(2, attempt - 1), 30000); // 最长等待30秒
+        console.log(`等待 ${waitTime}ms 后进行第 ${attempt + 1} 次重试...`);
+        await new Promise(resolve => setTimeout(resolve, waitTime));
+      }
+    }
   }
 
-  let tables;
-  try {
-    tables = await seatableBase.getTables();
-  } catch (err) {
-    console.error('获取表格列表失败。');
-    classifyAndLogError(err);
-    exit(1);
-  }
+  await retrySeaTableOperation(
+    () => seatableBase.auth(),
+    '身份验证'
+  );
 
-  let rows;
-  try {
-    rows = await seatableBase.listRows(tables[0]['name']);
-  } catch (err) {
-    console.error(`读取表 "${tables && tables[0] && tables[0].name}" 的行数据失败。`);
-    classifyAndLogError(err);
-    exit(1);
-  }
+  let tables = await retrySeaTableOperation(
+    () => seatableBase.getTables(),
+    '获取表格列表'
+  );
+
+  let rows = await retrySeaTableOperation(
+    () => seatableBase.listRows(tables[0]['name']),
+    `读取表 "${tables && tables[0] && tables[0].name}" 的行数据`
+  );
   const rows_reverse = rows.reverse();
   var opmlJson = [];
   rows_reverse.forEach(row => {
