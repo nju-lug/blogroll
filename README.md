@@ -49,7 +49,7 @@ https://t.me/NJULUG_Blogroll
 | Name | RSS | HTML |
 | --   | --  | --   |
 | OrangeX4's Blog | https://blog.orangex4.workers.dev/atom.xml | https://blog.orangex4.workers.dev/ |
-| Do1e | https://www.do1e.cn/feed | https://www.do1e.cn |
+| Do1e | --- | https://www.do1e.cn |
 | Idealclover's Blog | https://idealclover.top/feed | https://idealclover.top/ |
 | Cmj's Blog | https://blog.caomingjun.com/atom.xml | https://blog.caomingjun.com/ |
 | Mexii's Blog | https://blog.mexii.dev/atom.xml | https://blog.mexii.dev/ |
@@ -65,7 +65,7 @@ https://t.me/NJULUG_Blogroll
 | Chivalric Gong | --- | https://gmy-acoustics.github.io/ |
 | Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
 | Yukino's Blog | https://02hyc.github.io/Blog/index.xml | https://02hyc.github.io/Blog/ |
-| The 0x26A1 Bay | https://igns.top/index.xml | https://igns.top/ |
+| The 0x26A1 Bay | https://blog.igns.top/index.xml | https://igns.top/ |
 | jjl9807's blog | https://blog.jjl9807.com/feed/ | https://blog.jjl9807.com/ |
 | LoveApple's Blog | https://loveapple.icu/atom.xml | https://loveapple.icu/ |
 
