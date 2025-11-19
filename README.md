@@ -49,7 +49,7 @@ https://t.me/NJULUG_Blogroll
 | Name | RSS | HTML |
 | --   | --  | --   |
 | OrangeX4's Blog | https://blog.orangex4.workers.dev/atom.xml | https://blog.orangex4.workers.dev/ |
-| Do1e | --- | https://www.do1e.cn |
+| Do1e | --- | https://do1e.cn |
 | Idealclover's Blog | https://idealclover.top/feed | https://idealclover.top/ |
 | Cmj's Blog | https://blog.caomingjun.com/atom.xml | https://blog.caomingjun.com/ |
 | Mexii's Blog | https://blog.mexii.dev/atom.xml | https://blog.mexii.dev/ |
