@@ -44,6 +44,8 @@ https://t.me/NJULUG_Blogroll
 
 如果无 RSS 源，可以使用 `---` 代替，聚合页面将不会抓取，仅展示HTML链接。
 
+已毕业无法填写可邮箱联系[@Do1e i@do1e.cn](mailto:i@do1e.cn)。
+
 ## Lists
 
 | Name | RSS | HTML |
