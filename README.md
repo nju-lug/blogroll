@@ -72,6 +72,7 @@ https://t.me/NJULUG_Blogroll
 | LoveApple's Blog | https://loveapple.icu/atom.xml | https://loveapple.icu/ |
 | Chun Li's homepage | https://pkun.life/rss.xml | https://pkun.life/blogs |
 | 茶栗栗屋 | https://chariri.moe/feed/ | https://chariri.moe/ |
+| Yinfeng's | https://blog.linyinfeng.com/atom.xml | https://blog.linyinfeng.com |
 
 
 ## OPML
