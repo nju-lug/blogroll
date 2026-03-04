@@ -75,6 +75,7 @@ https://t.me/NJULUG_Blogroll
 | Yinfeng's | https://blog.linyinfeng.com/atom.xml | https://blog.linyinfeng.com |
 | 小猪Blog | https://www.zcec.top/feed | https://www.zcec.top |
 | LuLidong's Blog | https://www.imlld.com/atom.xml | https://www.imlld.com |
+| Rijuyuezhu's Blog | https://blog.rijuyuezhu.top/atom.xml | https://blog.rijuyuezhu.top |
 
 
 ## OPML
