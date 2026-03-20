@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "0 4,16 * * *"
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,9 +16,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # 令 GitHub 在 git clone 和 git checkout 后「忘记」使用的 credentials。
-          # 如果之后需要以另外的身份（如你的 GitHub Bot）执行 git push 操作时（如部署到 GitHub Pages），必须设置为 false。
-          persist-credentials: false
+          # 使用默认的 GITHUB_TOKEN 保留凭据，后续可直接 git push origin。
+          persist-credentials: true
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
@@ -43,20 +44,14 @@ jobs:
           SEATABLE_API_TOKEN: ${{ secrets.SEATABLE_API_TOKEN }}
       - name: Commit and push if README.md changed
         env:
-          DEPLOY_REPO: git@github.com:nju-lug/blogroll.git
           DEPLOY_BRANCH: main
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
           if [ -n "$(git status --porcelain README.md)" ]; then
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
             git add README.md
             git commit -m "update README.md from github actions"
-            mkdir -p ~/.ssh
-            echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-            chmod 600 ~/.ssh/id_rsa
-            ssh-keyscan github.com >> ~/.ssh/known_hosts
-            git push $DEPLOY_REPO HEAD:$DEPLOY_BRANCH
+            git push origin HEAD:$DEPLOY_BRANCH
           else
             echo "No changes detected"
           fi
