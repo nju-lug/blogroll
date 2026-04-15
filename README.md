@@ -74,7 +74,7 @@ https://t.me/NJULUG_Blogroll
 | 茶栗栗屋 | https://chariri.moe/feed/ | https://chariri.moe/ |
 | Yinfeng's | https://blog.linyinfeng.com/atom.xml | https://blog.linyinfeng.com |
 | 小猪Blog | https://www.zcec.top/feed | https://www.zcec.top |
-| LuLidong's Blog | https://www.imlld.com/atom.xml | https://www.imlld.com |
+| LuLidong's Blog | https://www.imlld.com/rss.xml | https://www.imlld.com |
 | Rijuyuezhu's Blog | https://blog.rijuyuezhu.top/atom.xml | https://blog.rijuyuezhu.top |
 
 
