@@ -2,7 +2,11 @@
 const fs = require('fs');
 // 引入 RSS 解析第三方包
 const Parser = require('rss-parser');
-const parser = new Parser();
+const parser = new Parser({
+  requestOptions: {
+    timeout: 15000
+  }
+});
 // 引入 RSS 生成器
 const RSS = require('rss');
 
@@ -53,6 +57,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
         continue;
       }
       const feed = await parser.parseURL(lineJson.xmlUrl);
+      console.log(`Fetched feed: ${lineJson.title} <${lineJson.xmlUrl}>`);
 
       // 数组合并
       dataJson.push.apply(dataJson, feed.items.filter((item) => item.title && (item.content || item.summary) && item.pubDate).map((item) => {
@@ -76,8 +81,8 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
     } catch (err) {
 
       // 网络超时，进行 Log 报告
-      console.log(err);
       console.log("-------------------------");
+      console.log(err);
       console.log("xmlUrl: " + lineJson.xmlUrl);
       console.log("-------------------------");
 
