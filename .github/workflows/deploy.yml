@@ -40,6 +40,7 @@ jobs:
           key: ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-${{ hashFiles('workers-site/package-lock.json') }}
       - run: npm i # 执行 Blogroll 的依赖安装
       - run: npm run update # 相当于 node update_files.js，从 Seatable 更新数据到 README.md
+        continue-on-error: true # 若更新失败（如证书过期），跳过此步骤并继续后续环节
         env:
           SEATABLE_API_TOKEN: ${{ secrets.SEATABLE_API_TOKEN }}
       - name: Commit and push if README.md changed
