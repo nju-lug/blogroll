@@ -69,7 +69,7 @@ https://t.me/NJULUG_Blogroll
 | Yukino's Blog | https://02hyc.github.io/Blog/index.xml | https://02hyc.github.io/Blog/ |
 | The Arcadia Bay | https://blog.igns.top/index.xml | https://igns.top/ |
 | jjl9807's blog | https://blog.jjl9807.com/feed/ | https://blog.jjl9807.com/ |
-| LoveApple's Blog | https://loveapple.icu/atom.xml | https://loveapple.icu/ |
+| LoveApple's Blog | https://loveapple.space/atom.xml | https://loveapple.space/ |
 | Chun Li's homepage | https://pkun.life/rss.xml | https://pkun.life/blogs |
 | 茶栗栗屋 | https://chariri.moe/feed/ | https://chariri.moe/ |
 | Yinfeng's | https://blog.linyinfeng.com/atom.xml | https://blog.linyinfeng.com |
