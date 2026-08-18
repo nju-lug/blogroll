@@ -68,7 +68,6 @@ https://t.me/NJULUG_Blogroll
 | Persvadisto's Blog | https://persvadisto.github.io/atom.xml | https://persvadisto.github.io/ |
 | Yukino's Blog | https://02hyc.github.io/Blog/index.xml | https://02hyc.github.io/Blog/ |
 | The Arcadia Bay | https://blog.igns.top/index.xml | https://igns.top/ |
-| jjl9807's blog | https://blog.jjl9807.com/feed/ | https://blog.jjl9807.com/ |
 | LoveApple's Blog | https://loveapple.space/atom.xml | https://loveapple.space/ |
 | Chun Li's homepage | https://pkun.life/rss.xml | https://pkun.life/blogs |
 | 茶栗栗屋 | https://chariri.moe/feed/ | https://chariri.moe/ |
@@ -76,6 +75,7 @@ https://t.me/NJULUG_Blogroll
 | 小猪Blog | https://www.zcec.top/feed | https://www.zcec.top |
 | LuLidong's Blog | https://www.imlld.com/rss.xml | https://www.imlld.com |
 | Rijuyuezhu's Blog | https://blog.rijuyuezhu.top/atom.xml | https://blog.rijuyuezhu.top |
+| jjl9807's blog | https://jjl9807.com/rss.xml | https://jjl9807.com/ |
 
 
 ## OPML
