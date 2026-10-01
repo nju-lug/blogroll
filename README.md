@@ -77,6 +77,7 @@ https://t.me/NJULUG_Blogroll
 | Rijuyuezhu's Blog | https://blog.rijuyuezhu.top/atom.xml | https://blog.rijuyuezhu.top |
 | jjl9807's blog | https://jjl9807.com/rss.xml | https://jjl9807.com/ |
 | ZJY's blog | https://riverclouds.net/atom.xml | https://riverclouds.net/ |
+| Loopo | https://www.loopo.cc/rss.xml | https://www.loopo.cc/ |
 
 
 ## OPML
